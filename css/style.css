@@ -135,11 +135,9 @@ a{
         flex-direction: column;
     }
 
-    hr{
+    main hr{
     color: #F4D3A0;
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    margin: 25px auto;
+
+    margin: 25px 0px;
     }
 }
