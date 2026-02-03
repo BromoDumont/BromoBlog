@@ -11,16 +11,36 @@
 
 body{
     background-color: #131019;
+    font-family: "Lato", sans-serif;
 }
 
 header{
     margin: 15px auto 25px 35px;
-    min-width: 270px;
-    max-width: 750px;
+
+    display: flex;
+
+    align-items: center;
 }
 
 header > a{
     text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+}
+
+nav a{
+    margin: 0px 0px 10px 0px;
+
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover{
+    font-weight: 700;
 }
 
 main{
@@ -54,26 +74,16 @@ main > hr{
     margin: 0px 25px;
 }
 
-/*
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-*/
-
 footer > p{
     text-align: center;
 }
 
 h1{
-    font-family: "Lato", sans-serif;
     font-weight: 700;
     color: #F0DDC2;
 }
 
 time{
-    font-family: "Lato", sans-serif;
     font-style: italic;
     font-weight: 400;
     color: #F4D3A0;
@@ -102,21 +112,20 @@ time{
 }
 
 .articleTag{
+    text-decoration: none;
     font-weight: bolder;
     text-indent: 0px;
     line-height: 1em;
     
     margin: 0px 5px 0px 0px;
     padding: 0px;
+}
 
-    /*
-    background-color: #F0DDC2;
-    border-radius: 999px;
-    */
+.articleTag:hover{
+    text-decoration: underline;
 }
 
 p{
-    font-family: "Lato", sans-serif;
     font-weight: 400;
     color: #F4D3A0;
     padding: .5em;
@@ -131,7 +140,7 @@ a{
     font-weight: bolder;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1100px) {
     main{
         flex-direction: column;
     }
