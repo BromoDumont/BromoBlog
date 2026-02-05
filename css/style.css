@@ -9,8 +9,14 @@
     padding: 0px;
 }
 
+:root{
+    --background-colo: #131019;
+    --big-text-color: #F0DDC2;
+    --small-text-color: #F4D3A0;
+}
+
 body{
-    background-color: #131019;
+    background-color: var(--background-colo);
     font-family: "Lato", sans-serif;
 }
 
@@ -62,6 +68,11 @@ article > a:hover{
     text-decoration: underline;
 }
 
+article > hr{
+    color: var(--small-text-color);
+    margin: 15px 0px;
+}
+
 aside{
     min-width: 270px;
     max-width: 450px;
@@ -69,8 +80,7 @@ aside{
 }
 
 main > hr{
-    color: #F4D3A0;
-
+    color: var(--small-text-color);
     margin: 0px 25px;
 }
 
@@ -80,19 +90,33 @@ footer > p{
 
 h1{
     font-weight: 700;
-    color: #F0DDC2;
+    color: var(--big-text-color);
 }
 
 time{
     font-style: italic;
     font-weight: 400;
-    color: #F4D3A0;
+    color: var(--small-text-color);
 
     line-height: 1em;
 }
 
-.home{
-    margin: 0px 0px 15px 0px;
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.lastPublishing
+{
+    min-width: 270px;
+    max-width: 750px;
+    max-height: 700px;
+    margin: 0px auto;
+    overflow: scroll;
+}
+
+.lastPublishing article{
+    margin: 0px 0px 50px 0px;
 }
 
 .about-me{
@@ -105,7 +129,7 @@ time{
 }
 
 .articleDataAndTags hr{
-    color: #F4D3A0;
+    color: var(--small-text-color);
     
     margin: 0px 8px;
     max-height: 25px;
@@ -125,9 +149,13 @@ time{
     text-decoration: underline;
 }
 
+.onJournaling{
+    text-align: center;
+}
+
 p{
     font-weight: 400;
-    color: #F4D3A0;
+    color: var(--small-text-color);
     padding: .5em;
 
     text-align: justify;
@@ -136,7 +164,7 @@ p{
 }
 
 a{
-    color: #F4D3A0;
+    color: var(--small-text-color);
     font-weight: bolder;
 }
 
@@ -146,7 +174,7 @@ a{
     }
 
     main hr{
-    color: #F4D3A0;
+    color: var(--small-text-color);
 
     margin: 25px 0px;
     }
