@@ -50,8 +50,13 @@ nav a:hover{
 }
 
 main{
-    padding: 25px;
+    padding: 0px 25px;
     display: flex;
+}
+
+main > hr{
+    color: var(--small-text-color);
+    margin: 0px 25px;
 }
 
 article{
@@ -77,11 +82,6 @@ aside{
     min-width: 270px;
     max-width: 450px;
     margin: 0px auto;
-}
-
-main > hr{
-    color: var(--small-text-color);
-    margin: 0px 25px;
 }
 
 footer > p{
@@ -112,6 +112,7 @@ iframe{
     max-width: 750px;
     max-height: 700px;
     margin: 0px auto;
+    padding: 0px 15px 0px 0px;
     overflow: scroll;
 }
 
@@ -153,6 +154,44 @@ iframe{
     text-align: center;
 }
 
+.artHomePage{
+    flex-direction: column;
+}
+
+.artHomePage > h1{
+    text-align: center;
+    margin: 0px auto 75px;
+}
+
+.artCapsile{
+    min-width: 270px;
+    max-width: 900px;
+    margin: 0px auto 50px;
+
+    display: flex;
+}
+
+.artCapsile > img{
+    max-height: 250px;
+    border-radius: 5%;
+}
+
+.artCapsile > .artCapsuleText{
+    padding: 0px 25px;
+}
+
+.artCapsuleText{
+    color: var(--big-text-color);
+}
+
+.journalingIndex{
+    flex-direction: column;
+}
+
+.journalingIndex article{
+    margin: 0px auto 50px auto;
+}
+
 p{
     font-weight: 400;
     color: var(--small-text-color);
@@ -177,5 +216,9 @@ a{
     color: var(--small-text-color);
 
     margin: 25px 0px;
+    }
+
+    .artCapsile{
+        flex-direction: column;
     }
 }
