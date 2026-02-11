@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 main{
-    padding: 0px 25px;
+    padding: 0px 25px 50px 0px;
     display: flex;
 }
 
@@ -75,7 +75,12 @@ article > a:hover{
 
 article > hr{
     color: var(--small-text-color);
-    margin: 15px 0px;
+    margin: 2em 0px;
+}
+
+article > img{
+    margin: 20px 0px;
+    max-width: 100%;
 }
 
 aside{
@@ -99,6 +104,11 @@ time{
     color: var(--small-text-color);
 
     line-height: 1em;
+}
+
+footer{
+    margin: 25px auto;
+    justify-content: center;
 }
 
 iframe{
@@ -163,7 +173,7 @@ iframe{
     margin: 0px auto 75px;
 }
 
-.artCapsile{
+.artCapsule{
     min-width: 270px;
     max-width: 900px;
     margin: 0px auto 50px;
@@ -171,12 +181,20 @@ iframe{
     display: flex;
 }
 
-.artCapsile > img{
+.artCapsule{
+    text-decoration: none;
+}
+
+.artCapsule :hover{
+    text-decoration: underline;
+}
+
+.artCapsule img{
     max-height: 250px;
     border-radius: 5%;
 }
 
-.artCapsile > .artCapsuleText{
+.artCapsule > .artCapsuleText{
     padding: 0px 25px;
 }
 
@@ -190,6 +208,11 @@ iframe{
 
 .journalingIndex article{
     margin: 0px auto 50px auto;
+}
+
+.tempNote{
+    margin: 0px 0px 0px 50px;
+    text-align: justify;
 }
 
 p{
@@ -218,7 +241,7 @@ a{
     margin: 25px 0px;
     }
 
-    .artCapsile{
+    .artCapsule{
         flex-direction: column;
     }
 }
