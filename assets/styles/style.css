@@ -152,6 +152,15 @@ a{
     text-align: left;
 }
 
+.articleIndex{
+    color: var(--background-colo);
+    margin: 0px auto 50px auto;
+}
+
+.articleIndex li{
+    text-align: left;
+}
+
 .articlePreview{
     min-width: 270px;
     max-width: 750px;
@@ -159,6 +168,7 @@ a{
 }
 
 .artProjectIndex{
+    color: var(--background-colo);
     margin: 0px auto 50px auto;
 }
 
