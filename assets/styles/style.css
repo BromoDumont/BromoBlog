@@ -78,7 +78,7 @@ article > hr{
     margin: 1em 0px;
 }
 
-article > img{
+article img{
     margin: 20px 0px;
     max-width: 100%;
 }
