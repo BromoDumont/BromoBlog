@@ -1,0 +1,11 @@
+baseURL = 'https://blog.bromo.art.br/'
+languageCode = 'pt-br'
+title = 'Bromo Blog'
+theme = 'BromaticTheme'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[taxonomies]
+  tag = "tags"

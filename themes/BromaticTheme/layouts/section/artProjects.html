@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+    <ul class="artProjectIndex">
+        {{ range .Pages }}
+        <li>
+            {{- partial "artProjectPreview.html" . -}}
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

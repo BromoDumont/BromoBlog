@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main>
+    <div class="lastJournalins">
+        {{ range first 5 (site.GetPage "journaling").Pages }}
+            {{- partial "articlePreview.html" . -}}
+        {{ end }}
+    </div>
+    <hr>
+    <aside>
+        <H1>Sobre Mim</H1>
+        <p>Eae, eu sou um artista conhecido como Bromo Dumont,entre as coisa que faço por tesão estão: desenvolvimento dejogos, fotografia, pesquisar sobre o baixo nível dascoisas, me perder no meio de pesquisas e estudar.</p>
+        <p>Resolvi fazer esse site para poder ter uma maneirasimples de acessar e compartilhar algumas coisas que faço,um drama que já me ocorreu algumas vezes foi querer mostraralgo para outras pessoas e não ter uma maneira menosburocrática que o envio de um link para acesso a algumaplataforma de armazenamento em nuvem.</p>
+        <p>Aqui tu vai encontrar coisas como: brisas variadas,patch notes de sistemas que estou desenvolvendo, notas deestudo sobre temas variados, e mais algumas coisas que sãodignas apenas as pessoas exploradoras.</p>
+        <p>Se tu quiser entrar em contato comigo pode enviar ume-mail para o endereço: <a href="mailto:dumont@bromo.artbr">dumont@bromo.art.br</a></p>
+    </aside>
+</main>
+{{ end }}

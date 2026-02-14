@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journalings on Bromo Blog</title>
+    <link>http://localhost:1313/journaling/</link>
+    <description>Recent content in Journalings on Bromo Blog</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 11 Feb 2026 22:18:48 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/journaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O tempo faz com que aproveitemos melhor as situações</title>
+      <link>http://localhost:1313/journaling/otempofazcomqueaproveitemosmelhorassituacoes/</link>
+      <pubDate>Wed, 11 Feb 2026 22:18:48 -0300</pubDate>
+      <guid>http://localhost:1313/journaling/otempofazcomqueaproveitemosmelhorassituacoes/</guid>
+      <description>&lt;p&gt;As coisas se complicaram muito rapidamente, obviamente não foi algo só de hoje, porém, as coisas vão se acumulando e o transbordar é inevitável caso a atenção devida não seja dada a tempo. O pensar e desaceleração do que estou fazendo vai ser necessária, acho que por pouco tempo mas ainda sim necessária.&lt;br&gt;&#xA;Pode parecer algo de todo ruim entretanto já é uma evolução perante o eu de alguns meses atrás, anteriormente em um momento assim um novo projeto seria começado e continuaria rodando até chegar nesse mesmo ponto e dar espaço para o recomeço desse ciclo.&lt;br&gt;&#xA;O principio da minha percepção dessa situação hoje veio quando, no trabalho (atualmente cumpro meio período como atendente de caixa na loja do meu pai), comecei a pensar sobre o que faria pós almoço e, apesar do ânimo, tudo parecia desconexo, um tanto sem sentido, despropositado (saber que ninguém está lendo isso me faz escrever coisas que geralmente só ficariam no meu diário kkkk). Mesmo sabendo que faz sentido, tendo um carinho pela Clarissa (protagonista do Tchibus), sabendo do quão bom vão ser os frutos de um trabalho em algum estúdio e etc as coisas parecem estranhas.&lt;br&gt;&#xA;Já fazem um pouco mais de três anos e meio que estou estudando 3D e um pouco menos desde que terminei o ensino médio, todo esse tempo com pouquíssima socialização tem seu preço. A esperança de que vou poder ficar mais próximo das minhas amizades, que vou encontrar novas e que não vou precisar estar submetido a opressão da solidão acompanhado são talvez as única coisa que realmente me faz continuar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Um passo de cada vez</title>
+      <link>http://localhost:1313/journaling/umpassodecadavez/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journaling/umpassodecadavez/</guid>
+      <description>&lt;p&gt;Como hoje foi o primeiro dia que desenhei desde que me comprometi acabei também tendo de começar a fazer a página de artes, ela ficou bem mais ou menos comparado ao que deve ser, com o tempo vou ir à melhorando. Hoje não me esforço nisso porque ainda vou jantar e estou com preguiça de trabalhar nisso agora.&lt;/p&gt;&#xA;&lt;p&gt;Vamos falar sobre outra coisa:&lt;/p&gt;&#xA;&lt;p&gt;Hoje a tarde e no começo da noite trabalhei na atualização 0.3 do gerador procedural de gondolas, fazia muito tempo desde a última vez que eu não mexia no Houdini e ele continua uma delicia, a sensação de conseguir programar as coisas lá é muito satisfatória. O objetivo era implementar um sistema de abertura automática de UVs mas se fosse simplesmente isso era fácil, as coisas começam a se complicar quando eu boto como uma das exigências esse sistema funcionar não só com uma gôndola única como também em todo uma série delas que estiveram num mesmo arquivo. A solução para isso era trazer para o asset uma técnica geralmente usada em environment: trim sheet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Já começamos pelo fracasso</title>
+      <link>http://localhost:1313/journaling/jacomecamospelofracasso/</link>
+      <pubDate>Sun, 08 Feb 2026 20:24:00 -0300</pubDate>
+      <guid>http://localhost:1313/journaling/jacomecamospelofracasso/</guid>
+      <description>&lt;p&gt;Na publicação do dia 04/02/26 (linkar a publicação) eu me comprometi em fazer ao menos um desenho por semana, logo na primeira já fracassei; uma desculpa que seria deveras conveniente é de que dia 04/02 foi em uma quarta feira então eu ainda tenho até o dia 11/02 para fazer o desenho, porém, acredito fortemente que isso seria covardia da minha parte. O mais honesto a se fazer aqui é assumir o fracasso e trabalhar em cima disso para levar o processo em frente, não deixar que - apesar de inicial nessa nova tentativa - esse fracasso seja o fator a não me deixar avançar nos estudos do desenho.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fazer arte é mais difícil que programar!</title>
+      <link>http://localhost:1313/journaling/fazerarteemaisdificilqueprogramar/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journaling/fazerarteemaisdificilqueprogramar/</guid>
+      <description>&lt;p&gt;Apesar do título desse post acho que na realidade as duas áreas são equidistantes do que se pode definir como fácil, estar em um caminho onde você se submete a proposta de lidar tanto com a parte técnica quanto artística de um projeto te faz ter percepções que variam de tempos em tempos sobre a dificuldade das coisas. O que me parece ser mais próximo de uma verdade é que tanto na parte técnica quanto na artística a relação entre (conhecimento de baixo nível + prática) e (dificuldade de realizar as coisas) é inversamente proporcional.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>É loucuragem isso que a Bloober Team está fazendo</title>
+      <link>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</guid>
+      <description>&lt;p&gt;A poucos dias eu fiquei sabendo do novo teaser da Bloober Team que provavelmente é do próximo projeto deles, isso por si só não é exatamente muita coisa, obviamente é interessante porque ser um novo projeto de um estúdio com bom histórico e isso também significa que provavelmente vão começar a realizar algumas contratações, porém, caso fosse &amp;ldquo;só&amp;rdquo; mais um jogo novo isso não mudaria muito para mim, entretanto parece que esse tal novo projeto está relacionado a Rule Of Rose.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+    <ul class="articleIndex">
+        {{ range .Pages }}
+        <li>
+            {{- partial "articlePreview.html" . -}}
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

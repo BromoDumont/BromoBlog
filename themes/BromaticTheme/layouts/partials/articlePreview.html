@@ -1,0 +1,15 @@
+<article class="articlePreview">
+    <a href="{{ .RelPermalink }}">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Params.preview }}</p>
+    </a>
+    <div class="metadataPreview">
+        <p>{{ time.Format "Mon, 02/Jan/06" .PublishDate }}<p>
+        <hr>
+        <ul class="metadataTags">
+            {{ range .GetTerms "tags" }}
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{ end }}
+        </ul>
+    </div>
+</article>

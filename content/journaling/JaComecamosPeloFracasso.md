@@ -1,0 +1,62 @@
+---
+title: Já começamos pelo fracasso
+date: 2026-02-08T20:24:00-03:00
+tags:
+    - Journaling
+
+params:
+    author: Bromo Dumont
+    preview: Na publicação do dia 04/02/26 "Fazer arte é mais difícil que programar!" eu me comprometi em fazer ao menos um desenho por semana, logo na primeira jáfracassei; uma desculpa que seria deveras conveniente é de que dia 04/02 foi em uma quarta feira então eu ainda tenho até o dia 11/02 para fazer o desenho,porém, acredito fortemente que isso seria covardia da minha parte. O mais honesto a se fazer aqui é assumir o fracasso e trabalhar em cima disso para levaro processo em frente, não deixar que - apesar de inicial nessa nova tentativa - esse fracasso seja o fator a não me deixar avançar nos estudos do desenho.
+---
+Na publicação do dia 04/02/26 (linkar a publicação) eu me comprometi em fazer ao menos um desenho por semana, logo na primeira já fracassei; uma desculpa que seria deveras conveniente é de que dia 04/02 foi em uma quarta feira então eu ainda tenho até o dia 11/02 para fazer o desenho, porém, acredito fortemente que isso seria covardia da minha parte. O mais honesto a se fazer aqui é assumir o fracasso e trabalhar em cima disso para levar o processo em frente, não deixar que - apesar de inicial nessa nova tentativa - esse fracasso seja o fator a não me deixar avançar nos estudos do desenho.
+
+O que vou fazer agora a noite, comecei a escrever às 20:25, é montar a parte dedicada ao projeto do desenho no site e organizar uma base de rotina de estudos; isso por si só já poderia ser considerado aquelas coisas que fazemos para adiar o que deveria ser feito, porém realmente acho que nesse caso faz sentido. A idea é organizar isso pensando não só nos desenho em si mas na minha macro rotinha de trabalho.
+
+Em Março começam as aulas na UFRN e isso vai alterar um bocado minha disponibilidade para as coisas, e o Tchibus vai ser publicado só no dia 20/03, qualquer esforço feito agora sem levar isso em consideração ficaria obsoleto em pouquíssimo tempo, o que me parece ideal levando tanto isso quando o que já conheço sobre mim é não pensar em um rotina fechada mas sim dividida em blocos temáticos.
+
+Meu dia pode ser dividido em 8 macro momento, cada parte - manhã, tarde e noite - dividas entre (começo + meio/fim) ou (começo/meio + fim), vou buscar usar dois deles para me dedicar ao blog ou aos estudos de arte - onde os desenhos vão entrar por agora -, no começo da manhã ou meio/fim da noite. Apesar do Tchibus ser um projeto de arte não vou considerá-lo aqui como estudo de arte poque se não teria de considerar 100% do meu dia, mesmo estando no trabalho "normal" de caixa ainda penso e escrevo sobre arte.
+
+---
+
+A principal referência para a interface que fiz para a página dos projetos foi o "The Ghost in the Shell - Perfect Book", especificamente as páginas mostrando os personagens no primeiro capítulo, o que fala sobre o filme do Mamoru Oshii. O Tchibus logo vai receber a página dele lá, provavelmente amanhã junto com um vídeo que vou publicar - acabei de lembrar que eu deveria ter feito também a página de documentação do master material porque referenciei ela no vídeo, mas é a vida, amanhã ou depois de terminar esse post vejo isso.
+
+Algo que começou a me vir a mente é como eu posso acabar usando as páginas que faço para registrar os meus projetos aqui como portfólio no lugar do site que hospedo na Adobe ou o Artstation, por motivo óbvios aqui consigo ter uma granularidade absurdamente maior nas possibilidades de personalizações nas apresentações para cada projeto. A cada dia vou descobrindo que aos poucos estou conseguindo fazer coisas que realmente me dão orgulho, é um sentimento estranho de se ter quando ao mesmo tempo você nunca conseguiu realmente ter êxito na realização de nada que tenha escolhido diretamente e seja ao mesmo tempo visto como valoroso pelas pessoas que convivem com você.
+
+---
+
+Algo que pode parecer estranho na página de artes - lá nomeei como "Repositório de Artes" e  vou chamar assim quando me referir a ela nos textos daqui para frente - é o não particionamento dos projetos em andamento e os finalizados, inicialmente eu não havia pensado na estrutura levando, conscientemente, isso em consideração porém acho que um ponto interessante dessa abordagem é deixar aberta a possibilidade de a qualquer momento que eu queira poder voltar a um antigo projeto e fazer alterações.
+
+Porém, apesar da ideia de que uma obra não se finaliza, mas sim abandonada, me parecer interessante e atraente, penso que um elemento nas plataformas normais atrapalha muito isso e um site próprio consegue resolver perfeitamente, tal elemento é o registro temporal das obras. Mesmo tecnicamente sendo possível você manter um registro disso, no artstation por exemplo, as coisas não ficam exatamente muito bonitas e isso nem é incentivado por causa da própria estrutura em que o site funciona.
+
+Aqui no site próprio eu posso não só fazer o registro das alterações como também monta-lo não seguindo um determinado padrão universal de todos os projetos mas sim à maneira que mais se adequa a obra em si, é o melhor dos mundos tanto para mim como artista quando para a obra.
+
+---
+
+Para finalizar o texto de hoje vou falar um pouco sobre como apesar de uma semana de poucas realizações concretas para o Tchibus, e uma falha no cronograma de produção de materiais, hoje eu fiz um asset completo para não só poder mostrar no vídeo da próxima semana como também matar a saudade de trabalhar em um asset completo de ponta a ponta e como isso me fez querer desenvolver um player de música na vida real.
+
+Antes de mais nada vamos especificar qual player de música fiz em 3D: o cilíndrico do protagonista do Persona 3; a ideia era faze-lo do começo ao fim em um só dia, não só deu certo como foi bem mais fácil do que eu imaginava. Inicialmente pensei que fosse mais complexo porém quando vi mais de perto as imagens de referência descobri que era bem mais simples. Aqui não tem prints de como ficou porque vou mostra-lo no vídeo da semana que vem e também vou tentar dar mais uma melhorada - lembra né: uma obra não se finaliza, abandona kkkk.
+
+Agora falando sobre a parte mais divertida de verdade: eu quero fazer um player de música cilíndrico na vida real, que obviamente não vai ser igual o do Persona 3 porque ele é bem broxante, até a posição dos botões é zoado (mesmo no asset que fiz tive que mudar para deixar minimamente agradável). A ideia é fazer um player de música que seja gostoso de se usar, só que ao mesmo tempo não quero deixa-lo com mais nenhuma inconveniência comum além do ter que baixar e transferir as músicas para ele, com isso fiz a seguinte lista de requerimentos basais:
+- Ser a prova d`água (porque? porque é um desafio técnico interessante e te possibilita ficar de boas ao usar ele numa chuva)
+- Ter conexão tanto P2 quanto Bluetooth
+- Bateria entre 8 e 12 horas
+- Além dos botões base um controlador em anel que nem o NW-S200
+- Carregamento por USB-C
+- Simples e barato de se fazer
+- Ser open source
+
+Fazer o anel controlador poderia ser bem simples caso o player não precisasse ser a prova d`água, mas sendo as coisas ficam diferentes, por enquanto penso em resolver isso com imãs. Um dos desafios realmente complicados que me veio a mente inicialmente era o retorno do anel a posição inicial pós interação, a primeira ideia que me veio a mente foi usar os próprios imãs que iriam interagir com o sistemas porém isso provavelmente não passaria uma sensação tátil tão boa, usar uma mola - como os NW-S200 - parecia melhor mas o grande problema era a produção de uma dessas.
+
+A solução veio quando eu comecei a pensar sobre como se produzir uma mola buscando no meio do processo encontrar algo que pudesse substitui-la de maneira igualmente durável e confiável que também fosse simples de se fazer, acabou que no meio disso encontrei não uma alternativa a mola mas sim uma alternativa a sua matéria prima e maneira de produção (as coisas que realmente complicariam a produção de uma).
+
+Inicialmente a solução para a torção em si do arame me veio: fazer um molde que possa ser impresso em 3D (que por si só já é uma complicação, porém se a pessoa está fazendo um projeto desse ela consegue lidar com isso e no caso da venda de kits para se fazer é fácil botar mais uma peça 3D no pacote), ai o grande problema se tornou a matéria prima - nunca que faria sentido comprar um rolo de arame só para montar um player de música - então enquanto eu pensava vi na mesa um clips de papel, à solução perfeita: vende em qualquer lojinha de papelaria, é barato, simples de usar no molde, fácil de trocar caso enferruje e tem a confiabilidade necessária.
+
+Além dessas coisas não explorei muito, só busquei algumas placas e vi que elas por si só provavelmente vão caber no que tamanho que imagino (algo como 8~10 cm de altura e um diâmetro de 2.25 cm), mas ainda tenho que ver mais a fundo isso porque foi algo realmente muito superficial. Esse vai ser um projeto que vou levar aos poucos com o tempo, na UFRN vou estar estudando mais sobre eletrônica então vou poder usa-lo para me ajudar nos estudos, posso deixar que esse parte se revele junto aos meus estudos na área. O que provavelmente vou ir pensando mais aqui e ali é na experiência que busco com ele, como ele deve ser sentido ao ser usado.
+
+---
+
+Quando comecei a escrever não imaginei que fosse digitar tanto, já são 22:45, obrigado por estar lendo tudo isso. Se tu quiser me mandar alguma mensagem pode enviar para esse endereço de e-mail: dumont@bromo.art.br
+
+Até uma próxima!
+
+Lembre-se: Apesar de tudo a vida é bela!
