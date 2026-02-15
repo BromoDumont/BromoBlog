@@ -2,6 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    {{- $siteIcon := resources.Get "imgs/permanent/Potikatu_Logo-White.ico" -}}
+    <link rel="shortcut icon" href="{{ $siteIcon.RelPermalink }}" type="image/x-icon">
     {{- $css := resources.Get "styles/style.css" -}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
