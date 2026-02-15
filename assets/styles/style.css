@@ -93,6 +93,19 @@ aside > h1{
     text-align: center;
 }
 
+footer p{
+    padding: 0em 0em .5em 0em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
 h1{
     font-weight: 700;
     color: var(--big-text-color);
