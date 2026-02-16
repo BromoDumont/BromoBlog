@@ -1,0 +1,33 @@
+---
+title: Me perdi nesses últimos dias
+date: 2026-02-16T10:50:00-03:00
+tags:
+    - Journaling
+
+params:
+    author: Bromo Dumont
+    preview: Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.
+---
+Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.
+Montar a cronologia e ficar totalmente coerente com os textos pré sexta, desse período e daqui para frente seria um tanto complicado então vamos fazer um soft reset, vamos fazer de hoje como se fosse um ano novo e “recomeçar” algumas coisas.
+
+---
+Iniciando pelos estudos de escultura: hoje de manhã comecei a ver as aulas do curso “Anatomia Essencial: Corpo Feminino”, vou levar junto esse e o ”A Beleza Feminina: Curves”, para registrar esses estudos vou fazer uma página na aba de artes. Inicialmente não me vinha muito a mente qual maneira seria mais interessante de montar tal página, porém, pensando com cuidado acho que seguir uma estrutura semelhante a um diário iria ser interessante.
+
+Isso me fez pensar agora também sobre a macro documentação do Tchibus, algo que pode funcionar bem é fazer dos vídeos uma espécie de react do que registro aqui no blog, eu posso explorar mais a funda algumas coisas que mais me atraem e responder perguntas que venham surgindo. Isso resolve vários dos problemas intrínsecos à maneira mais comum de fazer dev logs em vídeo.
+
+Vamos ter uma página principal da área das publicações dos projetos de arte onde se encontra tanto uma vitrine com os principais projetos do momento quanto uma área de buscador de artigos, lá pode-se filtrar e ordenar por macro área, projeto, tempo e etc.
+
+Ao mesmo tempo que as pessoas vão ser apresentadas ao blog eu vou tornar os vídeos semanais do Tchibus em si mais simples de se fazerem, dessa maneira consigo ter mais tempo e no futuro - quando eu tiver mais fluidez na produção - quem sabe até consiga produzir mais de um vídeo por semana.
+
+---
+No primeiro dev log em vídeo do Tchibus falei que comecei a gravar por sentir falta dos vídeo feitos pelos outros canais como do Gema e do GuSelect, porém a vontade de falar sobre game dev não veio só pós tanto tempo sem os vídeos deles, de lá até hoje já fiz alguns vídeos aqui e ali mas nunca levei muito para frente porque ainda muito precisava pensa muito sobre a macroestrutura do que estava sendo construído.
+
+Um problema que você logo se depara ao tentar fazer algo semelhante ao outrora comum é o custo geral de produção, manter um frequência semanal de publicação tendo qualidade é quase impossível quando o tema de cada vídeo é um novo jogo, o teto de qualidade e escopo é alcançado muito rapidamente.
+
+O que me pareceu ser uma alternativa para isso é o acompanhar do projeto/artista independente do que aconteça, dessa maneira abrimos mais espaço para duas ótimas coisas: uma maior tranquilidade na produção dos vídeo junto a um maior tempo para trabalho nos projetos em si e o espaço para uma maior aproximação das pessoas com o projeto e comigo como artista.
+
+---
+Agora é a manhã do dia 16/02/2026, estou no trabalho que vai até as 12 horas, a tarde vou fazer várias coisas e a noite escrevo mais. Acho que vou trabalhar no Tchibus  estudar um tanto de escultura.
+
+Muito obrigado por ter lido até aqui e como sempre: caso queira me enviar alguma mensagem pode endereçar ao e-mail: dumont@bromo.art.br
