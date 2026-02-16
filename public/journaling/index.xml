@@ -6,8 +6,15 @@
     <description>Recent content in Journalings on Bromo Blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 14 Feb 2026 22:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 10:50:00 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/journaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me perdi um tanto nesses últimos dias</title>
+      <link>http://localhost:1313/journaling/meperdiumtantonessesultimosdias/</link>
+      <pubDate>Mon, 16 Feb 2026 10:50:00 -0300</pubDate>
+      <guid>http://localhost:1313/journaling/meperdiumtantonessesultimosdias/</guid>
+      <description>&lt;p&gt;Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.&#xA;Montar a cronologia e ficar totalmente coerente com os textos pré sexta, desse período e daqui para frente seria um tanto complicado então vamos fazer um soft reset, vamos fazer de hoje como se fosse um ano novo e “recomeçar” algumas coisas.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Quando se deixa para escrever depois muita coisa se perde</title>
       <link>http://localhost:1313/journaling/quandosedeixaparaescreverdepoismuitacoisadeperde/</link>

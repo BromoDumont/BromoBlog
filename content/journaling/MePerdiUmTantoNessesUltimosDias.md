@@ -1,12 +1,12 @@
 ---
-title: Me perdi nesses últimos dias
+title: Me perdi um tanto nesses últimos dias
 date: 2026-02-16T10:50:00-03:00
 tags:
     - Journaling
 
 params:
     author: Bromo Dumont
-    preview: Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.
+    preview: 'Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.'
 ---
 Desde da sexta feira da semana passada (13/02/26) posso dizer que estive temporalmente meio perdido, duas coisas foram frutos desse período: a migração do blog para o HUGO e algumas realizações no Tchibus.
 Montar a cronologia e ficar totalmente coerente com os textos pré sexta, desse período e daqui para frente seria um tanto complicado então vamos fazer um soft reset, vamos fazer de hoje como se fosse um ano novo e “recomeçar” algumas coisas.
