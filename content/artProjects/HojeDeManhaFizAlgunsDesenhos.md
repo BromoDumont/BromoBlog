@@ -14,4 +14,4 @@ Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado d
 
 Num geral essa primeira página foi bem digna de um primeiro dia; amanhã acho que vou explorar mais silhuetas com aquarela, lembro de algumas coisas que o Algusto Ribeirões falou sobre e que na época eu tinha gostado do que resultou (fazia tempo que eu não via nada dele, fui procurar agora e as publicações no yt, inst ou artstation tem mais de mês, espero que nada grave tenha acontecido).
 
-![Foto da Folha de Desenho](imgs/artProjects/EstudosDeDesenho/260210-aafd_01.jpg)
+{{< figure src="imgs/artProjects/EstudosDeDesenho/260210-aafd_01.jpg" >}}

@@ -79,8 +79,12 @@ article > hr{
 }
 
 article img{
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
     max-width: 100%;
+}
+
+figure{
+    margin: 25px 0px;
 }
 
 aside{
@@ -196,7 +200,9 @@ a{
 }
 
 .artProjectPreview img{
-    max-height: 250px;
+    max-width: 350px;
+    min-width: 100px;
+    max-height: 200px;
     border-radius: 5%;
 }
 
