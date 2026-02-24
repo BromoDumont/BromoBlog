@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art on Bromo Blog</title>
-    <link>http://localhost:1313/tags/art/</link>
+    <link>https://blog.bromo.art.br/tags/art/</link>
     <description>Recent content in Art on Bromo Blog</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.bromo.art.br/tags/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hoje de manhã fiz alguns desenhos</title>
-      <link>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</link>
+      <link>https://blog.bromo.art.br/artprojects/hojedemanhafizalgunsdesenhos/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</guid>
+      <guid>https://blog.bromo.art.br/artprojects/hojedemanhafizalgunsdesenhos/</guid>
       <description>&lt;p&gt;Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado de cálculo e desenho hoje eu não usei diretamente nenhum livro ou aula vista hoje como base, por estar a um bom tempo imerso no estudo de artes num geral vou aproveitar esse começo para fazer algumas explorações mais livre e entender melhor o que quero de verdade, o que fiz hoje foi começar com uma explorações sobre formas de abajures e depois segui para uns desenhos de poses humanas rápidas (algo que pelos resultados fica obvio que eu ainda não estou nada preparado para). A ideia nesse último exercício foi usar algumas coisas que aprendi com o Rafa Souza sobre observação, mas antes de conseguir fazer isso rápido preciso fazer devagar, provavelmente o exercício daquela aula via ser algo que vou fazer daqui a não muito tempo.&lt;/p&gt;</description>
     </item>
   </channel>
