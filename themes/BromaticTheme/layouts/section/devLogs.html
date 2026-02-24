@@ -1,9 +1,9 @@
 {{ define "main" }}
 <main>
-    <ul class="articleIndex">
+    <ul class="devLogIndex">
         {{ range .Pages }}
         <li>
-            {{- partial "articlePreview.html" . -}}
+            {{- partial "devLogPreview.html" . -}}
         </li>
         {{ end }}
     </ul>

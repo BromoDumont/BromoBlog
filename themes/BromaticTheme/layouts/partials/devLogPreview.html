@@ -1,9 +1,9 @@
-<div class="artProjectPreview">
+<div class="devLogPreview">
     <a href="{{ .RelPermalink }}">
         {{ $projectThumb := resources.Get .Params.projectThumb }}
         <img src="{{ $projectThumb.RelPermalink }}" alt="projectThumb">
     </a>
-    <div class="artProjectPreviewText">
+    <div class="devLogPreviewText">
         <a href="{{ .RelPermalink }}">
             <h1>{{ .Title }}</h1>
             <p>{{ .Params.preview }}</p>
