@@ -1,6 +1,6 @@
 ---
 title: Já começamos pelo fracasso
-date: 2026-02-08T20:24:00-03:00
+publishDate : 2026-02-08T20:24:00-03:00
 tags:
     - Journaling
 

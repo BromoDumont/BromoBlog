@@ -1,6 +1,6 @@
 ---
 title: Vou seguir o coração
-date: 2026-02-19T22:24:00-03:00
+publishDate : 2026-02-19T22:24:00-03:00
 tags:
   - Journaling
 params:

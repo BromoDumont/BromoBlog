@@ -1,6 +1,6 @@
 ---
 title: Fazer arte é mais difícil que programar!
-date: 2026-02-04
+publishDate: 2026-02-04
 tags:
     - Journaling
 

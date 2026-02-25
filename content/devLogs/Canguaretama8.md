@@ -1,12 +1,14 @@
 ---
-title: Canguaretama ∞
+title: "Já começamos com um drama"
+publishDate: 2026-02-25
 tags:
-    - Journaling
+    - DevLog
 
 params:
     author: Bromo Dumont
+    originalProject: Canguaretama ∞
+    devLogThumb: imgs/artProjects/Canguaretama8/260224-Cang8_Igreja.jpg
     preview: Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado de cálculo e desenho hoje eu não usei diretamente nenhum livro ou aula vista hoje como base, por estar a um bom tempo imerso no estudo de artes num geral vou aproveitar esse começo para fazer algumas explorações mais livre e entender melhor o que quero de verdade, o que fiz hoje foi começar com uma explorações sobre formas de abajures e depois segui para uns desenhos de poses humanas rápidas (algo que pelos resultados fica obvio que eu ainda não estou nada preparado para). A ideia nesse último exercício foi usar algumas coisas que aprendi com o Rafa Souza sobre observação, mas antes de conseguir fazer isso rápido preciso fazer devagar, provavelmente o exercício daquela aula via ser algo que vou fazer daqui a não muito tempo.
-    projectThumb: imgs/artProjects/EstudosDeDesenho/260210-aafd_01.jpg
 ---
 Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado de cálculo e desenho hoje eu não usei diretamente nenhum livro ou aula vista hoje como base, por estar a um bom tempo imerso no estudo de artes num geral vou aproveitar esse começo para fazer algumas explorações mais livre e entender melhor o que quero de verdade, o que fiz hoje foi começar com uma explorações sobre formas de abajures e depois segui para uns desenhos de poses humanas rápidas (algo que pelos resultados fica obvio que eu ainda não estou nada preparado para). A ideia nesse último exercício foi usar algumas coisas que aprendi com o Rafa Souza sobre observação, mas antes de conseguir fazer isso rápido preciso fazer devagar, provavelmente o exercício daquela aula via ser algo que vou fazer daqui a não muito tempo.
 

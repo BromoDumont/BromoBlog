@@ -1,6 +1,6 @@
 ---
 title: O tempo faz com que aproveitemos melhor as situações
-date: 2026-02-11T22:18:48-03:00
+publishDate : 2026-02-11T22:18:48-03:00
 tags:
     - Journaling
 

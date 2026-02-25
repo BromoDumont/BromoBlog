@@ -176,9 +176,6 @@ footer a:hover{
 .articleIndex{
     color: var(--background-colo);
     margin: 0px auto 50px auto;
-
-    color: var(--background-colo);
-    margin: 0px auto 50px auto;
 }
 
 .articleIndex li{
@@ -247,8 +244,6 @@ footer a:hover{
     min-width: 270px;
     max-width: 950px;
     margin: 0px auto 35px auto;
-    
-    display: flex;
 }
 
 .devLogPreview a{
@@ -266,10 +261,47 @@ footer a:hover{
     object-fit: cover;  
 }
 
+.mainDevLogPreview{
+    display: flex;
+}
+
 .devLogPreviewText{
     margin: 0px 25px;
     overflow: hidden;
     height: 150px;
+}
+
+.devLogThumb{
+    width: 100%;
+    min-width: 270px;
+    max-width: 750px;
+
+    border-radius: 5%;
+}
+
+.metadataDevLogPreview{
+    display: flex;
+    padding: 0px 0px 0px .5em;
+}
+
+.metadataDevLogPreview p{
+    text-indent: 0em;
+    line-height: 0em;
+    padding: 0em;
+
+    font-style: italic;
+
+    align-content: center;
+}
+
+.metadataDevLogPreview hr{
+    color: var(--small-text-color);
+    
+    margin: 0px 8px;
+}
+
+.metadataDevLogPreview a{
+    margin: 0px 8px 0px 0px;
 }
 
 
@@ -293,7 +325,6 @@ footer a:hover{
     color: var(--small-text-color);
     
     margin: 0px 8px;
-    max-height: auto;
 }
 
 .metadataPreview ul{
