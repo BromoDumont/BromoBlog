@@ -1,6 +1,6 @@
 ---
 title: Um passo de cada vez
-date: 2026-02-10
+publishDate : 2026-02-10
 tags:
     - Journaling
 

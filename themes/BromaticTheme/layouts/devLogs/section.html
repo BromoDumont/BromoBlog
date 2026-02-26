@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+    <ul class="devLogIndex">
+        {{ range .Pages }}
+        <li>
+            {{- partial "devLogPreview.html" . -}}
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

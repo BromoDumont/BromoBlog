@@ -1,10 +1,9 @@
 {{ define "main" }}
 <main>
-    <h1>artProjectFrom Section</h1>
-    <ul class="artProjectIndex">
+    <ul class="documentationIndex">
         {{ range .Pages }}
         <li>
-            {{- partial "artProjectPreview.html" . -}}
+            {{- partial "articlePreview.html" . -}}
         </li>
         {{ end }}
     </ul>

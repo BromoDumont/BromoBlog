@@ -1,6 +1,6 @@
 ---
 title: Me perdi um tanto nesses últimos dias
-date: 2026-02-16T10:50:00-03:00
+publishDate : 2026-02-16T10:50:00-03:00
 tags:
     - Journaling
 

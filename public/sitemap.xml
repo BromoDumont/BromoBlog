@@ -2,55 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.bromo.art.br/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devlog/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/devlogs/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/documentation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/documentation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/devlogs/canguaretama8/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/documentation/themedocumentation/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/journaling/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/journaling/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/journaling/usufruindodaminhapequenez/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/journaling/vouseguirocoracao/</loc>
     <lastmod>2026-02-19T22:24:00-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/tags/journaling/</loc>
-    <lastmod>2026-02-19T22:24:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.bromo.art.br/journaling/</loc>
-    <lastmod>2026-02-19T22:24:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.bromo.art.br/tags/</loc>
-    <lastmod>2026-02-19T22:24:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.bromo.art.br/journaling/vouseguirocoracao/</loc>
-    <lastmod>2026-02-19T22:24:00-03:00</lastmod>
-  </url><url>
-    <loc>https://blog.bromo.art.br/journaling/reflexaosobreintencaoerotina/</loc>
+    <loc>http://localhost:1313/journaling/reflexaosobreintencaoerotina/</loc>
     <lastmod>2026-02-16T23:08:00-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/meperdiumtantonessesultimosdias/</loc>
+    <loc>http://localhost:1313/journaling/meperdiumtantonessesultimosdias/</loc>
     <lastmod>2026-02-16T10:50:00-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/quandosedeixaparaescreverdepoismuitacoisadeperde/</loc>
+    <loc>http://localhost:1313/journaling/quandosedeixaparaescreverdepoismuitacoisadeperde/</loc>
     <lastmod>2026-02-14T22:58:00-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/otempofazcomqueaproveitemosmelhorassituacoes/</loc>
+    <loc>http://localhost:1313/journaling/otempofazcomqueaproveitemosmelhorassituacoes/</loc>
     <lastmod>2026-02-11T22:18:48-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/tags/art/</loc>
+    <loc>http://localhost:1313/tags/art/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/artprojects/</loc>
+    <loc>http://localhost:1313/artprojects/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/tags/desenho/</loc>
+    <loc>http://localhost:1313/tags/desenho/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/artprojects/hojedemanhafizalgunsdesenhos/</loc>
+    <loc>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/umpassodecadavez/</loc>
+    <loc>http://localhost:1313/journaling/umpassodecadavez/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/jacomecamospelofracasso/</loc>
+    <loc>http://localhost:1313/journaling/jacomecamospelofracasso/</loc>
     <lastmod>2026-02-08T20:24:00-03:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/fazerarteemaisdificilqueprogramar/</loc>
+    <loc>http://localhost:1313/journaling/fazerarteemaisdificilqueprogramar/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.bromo.art.br/journaling/eloucuragemissoqueablooberteamestafazendo/</loc>
+    <loc>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>
