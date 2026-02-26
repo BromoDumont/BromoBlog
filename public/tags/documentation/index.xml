@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Bromo Blog</title>
+    <link>http://localhost:1313/tags/documentation/</link>
+    <description>Recent content in Documentation on Bromo Blog</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teste de Documentação</title>
+      <link>http://localhost:1313/documentation/themedocumentation/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/documentation/themedocumentation/</guid>
+      <description>&lt;p&gt;É interessante pensar que ao mesmo tempo estrou montando e utilizando o site, a primeira documentação que ele recebe é justamente a própria.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
