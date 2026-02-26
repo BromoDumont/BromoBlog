@@ -31,6 +31,10 @@ h1{
     color: var(--big-text-color);
 }
 
+h2{
+    color: var(--big-text-color);
+}
+
 ul{
     color: var(--small-text-color);
     margin: 0em 0em 0em 1.5em;
@@ -121,7 +125,9 @@ article > hr{
 }
 
 article img{
+    max-width: 100%;
     margin: 0px 0px 20px 0px;
+    border-radius: 5%;
 }
 
 
@@ -239,6 +245,10 @@ footer a:hover{
     margin: 0px auto 50px auto;
 }
 
+.devLogIndex li{
+    text-align: left;
+}
+
 /* Dev Log Preview */
 .devLogPreview{
     min-width: 270px;
@@ -263,6 +273,7 @@ footer a:hover{
 
 .mainDevLogPreview{
     display: flex;
+    margin: 0px 0px 15px 0px;
 }
 
 .devLogPreviewText{
@@ -281,13 +292,14 @@ footer a:hover{
 
 .metadataDevLogPreview{
     display: flex;
-    padding: 0px 0px 0px .5em;
 }
 
 .metadataDevLogPreview p{
     text-indent: 0em;
-    line-height: 0em;
+    line-height: normal;
     padding: 0em;
+
+    margin: 0px;
 
     font-style: italic;
 
@@ -313,7 +325,7 @@ footer a:hover{
 
 .metadataPreview p{
     text-indent: 0em;
-    line-height: 0em;
+    line-height: normal;
     padding: 0em;
 
     font-style: italic;
@@ -342,6 +354,15 @@ footer a:hover{
     margin: 25px auto;
 }
 
+.erro404{
+    margin: auto;
+    text-align: center;
+    margin: 15% auto;
+}
+
+.erro404 p{
+    text-align: center;
+}
 
 @media (max-width: 1100px) {
     main{

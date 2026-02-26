@@ -5,9 +5,16 @@
     <link>http://localhost:1313/journaling/</link>
     <description>Recent content in Journalings on Bromo Blog</description>
     <generator>Hugo</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Thu, 19 Feb 2026 22:24:00 -0300</lastBuildDate>
+    <language>pt</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/journaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usufruindo da minha pequenez</title>
+      <link>http://localhost:1313/journaling/usufruindodaminhapequenez/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journaling/usufruindodaminhapequenez/</guid>
+      <description>&lt;p&gt;Vou usufruir do ensinamento: é muito mais fácil alterar a rota de uma canoa à remo que de um cargueiro transcontinental. Uma parte que eu poderia me debruçar sobre é justamente as particularidades da pequenez, porém acho que seria covardia da minha parte ficar só nessa região fácil de se escrever sobre, o que realmente traz algo ao mesmo tempo interessante e promissor é num momento como esse é justamente sentir as diferenças entre os caminhos definidos como possíveis e entender os elementos radicais de cada possibilidade.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vou seguir o coração</title>
       <link>http://localhost:1313/journaling/vouseguirocoracao/</link>
