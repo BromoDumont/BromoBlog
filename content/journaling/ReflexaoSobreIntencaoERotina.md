@@ -1,6 +1,6 @@
 ---
 title: Reflexão sobre intenção e rotina
-publishDate : 2026-02-16T23:08:00-03:00
+publishDate: 2026-02-16T23:08:00-03:00
 tags:
   - Journaling
   - 

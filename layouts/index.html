@@ -1,9 +1,14 @@
 {{ define "main" }}
 <main>
     <div class="lastJournalins">
-        {{ range first 5 (site.GetPage "journaling").Pages }}
+        
+        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs") }}
+        {{ $pages = sort $pages "Date" "desc" }}
+
+        {{ range first 5 $pages }}
             {{- partial "articlePreview.html" . -}}
         {{ end }}
+        
     </div>
     <hr>
     <aside>

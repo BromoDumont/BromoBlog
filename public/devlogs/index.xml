@@ -6,14 +6,14 @@
     <description>Recent content in DevLogs on Bromo Blog</description>
     <generator>Hugo</generator>
     <language>pt</language>
-    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/devlogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Já começamos com um drama</title>
-      <link>http://localhost:1313/devlogs/canguaretama8/</link>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devlogs/canguaretama8/</guid>
-      <description>&lt;p&gt;Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado de cálculo e desenho hoje eu não usei diretamente nenhum livro ou aula vista hoje como base, por estar a um bom tempo imerso no estudo de artes num geral vou aproveitar esse começo para fazer algumas explorações mais livre e entender melhor o que quero de verdade, o que fiz hoje foi começar com uma explorações sobre formas de abajures e depois segui para uns desenhos de poses humanas rápidas (algo que pelos resultados fica obvio que eu ainda não estou nada preparado para). A ideia nesse último exercício foi usar algumas coisas que aprendi com o Rafa Souza sobre observação, mas antes de conseguir fazer isso rápido preciso fazer devagar, provavelmente o exercício daquela aula via ser algo que vou fazer daqui a não muito tempo.&lt;/p&gt;</description>
+      <title>Falso dia 01</title>
+      <link>http://localhost:1313/devlogs/falsodia01/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devlogs/falsodia01/</guid>
+      <description>&lt;p&gt;Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Apesar de ser o primeiro dia de log esse não é o primeiro dia do projeto, ele tem origem ali na noite do dia 23/02/26, o objetivo aqui é simples: completar múltiplas vezes o ciclo completo de produção de uma cena para que assim eu obtenha uma maior fluidez na parte de renderização na unreal engine. O número de cenas a serem feitas vão ser 8 pelo simples motivo: eu gosto do número 8 kkkkkk.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 ---
 title: Quando se deixa para escrever depois muita coisa se perde
-publishDate : 2026-02-14T22:58:00-03:00
+publishDate: 2026-02-14T22:58:00-03:00
 tags:
     - Journaling
 

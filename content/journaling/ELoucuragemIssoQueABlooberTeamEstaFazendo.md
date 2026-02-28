@@ -1,6 +1,6 @@
 ---
 title: É loucuragem isso que a Bloober Team está fazendo
-publishDate : 2026-02-01
+publishDate: 2026-02-01
 tags:
     - Journaling
 

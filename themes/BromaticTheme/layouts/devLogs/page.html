@@ -1,11 +1,14 @@
 {{ define "main" }}
 <main>
     <article>
+        <!--
         {{ $devLogThumb := resources.Get .Params.devLogThumb }}
         <img src="{{ $devLogThumb.RelPermalink }}" alt="devLogThumb" class="devLogThumb">
+        -->
         <h1>{{ .Title }}</h1>
         <p class="date">{{ time.Format "Mon, 02/Jan/06" .PublishDate }}</p>
         {{ .Content }}
+        {{- partial "commentSection.html" . -}}
     </article>
 </main>
 {{ end }}

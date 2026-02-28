@@ -26,6 +26,14 @@ figure{
     margin: 25px 0px;
 }
 
+figcaption p{
+    text-align: center;
+    text-indent: 0em;
+    line-height: 1em;
+
+    padding: 0px;
+}
+
 h1{
     font-weight: 700;
     color: var(--big-text-color);
@@ -128,6 +136,14 @@ article img{
     max-width: 100%;
     margin: 0px 0px 20px 0px;
     border-radius: 5%;
+}
+
+article figure > img{
+    max-width: 100%;
+    margin: 0px auto .5em;
+    border-radius: 5%;
+
+    display: block;
 }
 
 
