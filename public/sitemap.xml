@@ -73,5 +73,11 @@
   </url><url>
     <loc>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artrefs/</loc>
+    <lastmod>1969-12-31T21:31:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artrefs/stanczyk-jan_matejko1862/</loc>
+    <lastmod>1969-12-31T21:31:02-03:00</lastmod>
   </url>
 </urlset>

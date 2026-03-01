@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+    <ul class="artRefIndex">
+        {{ range .Pages }}
+        <li>
+            {{- partial "artRefsPreview.html" . -}}
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}
