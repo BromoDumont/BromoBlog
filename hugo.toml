@@ -15,3 +15,6 @@ enableDefault = true
 
 [taxonomies]
   tag = "tags"
+
+[paginatio]
+  pagerSize = 8
