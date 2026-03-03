@@ -1,11 +1,29 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html"
+    (dict "extraCssPath" "styles/artProjects.css") -}}
+{{ end }}
+
 {{ define "main" }}
 <main>
-    <ul class="artProjectIndex">
-        {{ range .Pages }}
-        <li>
-            {{- partial "artProjectPreview.html" . -}}
-        </li>
-        {{ end }}
-    </ul>
+    <nav class="artProjectNavegation">
+        <a class="subNavLinks" href="/nada">
+            <h3>Arte 3D</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Fotografia</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Filmes</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Artes Gerais</h3>
+        </a>
+    </nav>
+
+    <hr class="artProjectNavDivider">
+
+    <div>
+        
+    </div>
 </main>
 {{ end }}
