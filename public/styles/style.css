@@ -10,7 +10,7 @@
 }
 
 :root{
-    --background-colo: #131019;
+    --background-color: #131019;
     --big-text-color: #F0DDC2;
     --small-text-color: #F4D3A0;
 }
@@ -18,8 +18,9 @@
 
 /* Individual Elements */
 body{
-    background-color: var(--background-colo);
+    background-color: var(--background-color);
     font-family: "Lato", sans-serif;
+    color: var(--big-text-color);
 }
 
 h1{
@@ -40,7 +41,7 @@ p{
 a{
     color: var(--small-text-color);
     font-weight: bolder;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover{
@@ -125,16 +126,6 @@ footer p{
     padding: 0px 0px 0px .5em;
 }
 
-.metadataPreview p{
-    text-indent: 0em;
-    line-height: normal;
-    padding: 0em;
-
-    font-style: italic;
-
-    align-content: center;
-}
-
 .metadataPreview a{
     margin: 0px 8px 0px 0px;
 }
@@ -150,6 +141,14 @@ footer p{
     margin: 0px 8px 0px 0px;
 }
 
+.date{
+    font-style: italic;
+
+    line-height: 1em;
+    text-indent: 0em;
+    padding: 0em;
+}
+
 /* Last Journalig */
 .lastJournalins{
     min-width: 270px;
@@ -158,6 +157,16 @@ footer p{
     margin: 0px auto;
     padding: 0px 15px 0px 0px;
     overflow: scroll;
+}
+
+.erro404{
+    margin: auto;
+    text-align: center;
+    margin: 15% auto;
+}
+
+.erro404 p{
+    text-align: center;
 }
 
 @media (max-width: 1100px) {

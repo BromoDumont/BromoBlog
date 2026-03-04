@@ -1,90 +1,6 @@
-
-h2{
-    color: var(--big-text-color);
-}
-
-figure{
-    margin: 25px 0px;
-}
-
-figcaption p{
-    text-align: center;
-    text-indent: 0em;
-    line-height: 1em;
-
-    padding: 0px;
-}
-
-/* Article */
-article{
-    min-width: 270px;
-    max-width: 750px;
-    margin: 0px auto;
-}
-
-article img{
-    max-width: 100%;
-    margin: 0px 0px 20px 0px;
-    border-radius: 5%;
-}
-
-article figure > img{
-    max-width: 100%;
-    margin: 0px auto .5em;
-    border-radius: 5%;
-
-    display: block;
-}
-
-article > hr{
-    color: var(--small-text-color);
-    margin: 1em 0px;
-}
-
-article a{
-    text-decoration: none;
-}
-
-article a:hover{
-    text-decoration: underline;
-}
-
-
-ul{
-    color: var(--small-text-color);
-    margin: 0em 0em 0em 1.5em;
-}
-
-li{
-    text-align: justify;
-}
-
-
-.date{
-    font-style: italic;
-    font-weight: 700;
-    text-indent: 0em;
-    padding: 0em;
-    margin: .5em 0em 1em 0em;
-}
-
-
-/* Article Index */
-.articleIndex{
-    color: var(--background-colo);
-    margin: 0px auto 50px auto;
-    text-align: left;
-}
-
-/* Giscus Commentary Area */
-.giscus{
-    margin: 25px auto;
-}
-
-
 /* Art Project Index */
 .artProjectIndex{
-    color: var(--background-colo);
+    color: var(--background-color);
     margin: 0px auto 50px auto;
 }
 
@@ -119,7 +35,7 @@ li{
 
 /* Dev Log Index */
 .devLogIndex{
-    color: var(--background-colo);
+    color: var(--background-color);
     margin: 0px auto 50px auto;
 }
 
@@ -192,15 +108,4 @@ li{
 
 .metadataDevLogPreview a{
     margin: 0px 8px 0px 0px;
-}
-
-
-.erro404{
-    margin: auto;
-    text-align: center;
-    margin: 15% auto;
-}
-
-.erro404 p{
-    text-align: center;
 }

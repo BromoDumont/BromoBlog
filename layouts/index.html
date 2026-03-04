@@ -6,7 +6,7 @@
 <main>
     <div class="lastJournalins">
         
-        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs") }}
+        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling") }}
         {{ $pages = sort $pages "Date" "desc" }}
 
         {{ range first 5 $pages }}

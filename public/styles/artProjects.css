@@ -29,6 +29,10 @@ main{
     margin: 0px auto 75px;
 }
 
+.projectRows a{
+    color: var(--background-color);
+}
+
 .projectThumb{
     position: relative;
     text-align: center;
@@ -41,7 +45,7 @@ main{
     border-style: solid;
     border-color: var(--big-text-color);
 
-    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 
     transform: scale(1.03);
 }
@@ -61,7 +65,6 @@ main{
     border-radius: 2%;
     border: 5px;
     border-style: solid;
-    border-color: var(--background-color);
 
     transition: 
         filter 0.3s ease,
