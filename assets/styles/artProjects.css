@@ -23,3 +23,30 @@ main{
 .subNavLinks{
     margin: 0px 15px;
 }
+
+.projectRows{
+    display: flex;
+    margin: 0px auto 75px;
+}
+
+.projectThumb{
+    margin: 0px 25px;
+
+    object-fit: cover;
+
+    min-width: 320px;
+    max-width: 480px;
+    width: 100%;
+    aspect-ratio: 16/9;
+
+    border-radius: 5%;
+    border: 5px;
+    border-style: solid;
+    border-color: var(--background-colo);
+}
+
+.projectThumb:hover{
+    border: 5px;
+    border-style: solid;
+    border-color: var(--big-text-color);
+}
