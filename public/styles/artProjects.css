@@ -30,8 +30,27 @@ main{
 }
 
 .projectThumb{
-    margin: 0px 25px;
+    position: relative;
+    text-align: center;
 
+    margin: 0px 25px;
+}
+
+.projectThumb:hover img{
+    border: 5px;
+    border-style: solid;
+    border-color: var(--big-text-color);
+
+    -webkit-filter: brightness(50%);
+
+    transform: scale(1.03);
+}
+
+.projectThumb:hover .projectInfo{
+    opacity: 1;
+}
+
+.projectThumb img{
     object-fit: cover;
 
     min-width: 320px;
@@ -39,14 +58,38 @@ main{
     width: 100%;
     aspect-ratio: 16/9;
 
-    border-radius: 5%;
+    border-radius: 2%;
     border: 5px;
     border-style: solid;
-    border-color: var(--background-colo);
+    border-color: var(--background-color);
+
+    transition: 
+        filter 0.3s ease,
+        transform 0.3s ease;
 }
 
-.projectThumb:hover{
-    border: 5px;
-    border-style: solid;
-    border-color: var(--big-text-color);
+.projectInfo{
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.projectInfo p{
+    line-height: 1em;
+    text-indent: 0em;
+    padding: 0em;
+    margin: 5px 0px 10px;
+    text-align: center;
+}
+
+.projectInfo > hr{
+    margin: 0px 25%;
 }

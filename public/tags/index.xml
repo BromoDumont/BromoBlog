@@ -43,5 +43,12 @@
       <guid>http://localhost:1313/tags/desenho/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Film</title>
+      <link>http://localhost:1313/tags/film/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/film/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

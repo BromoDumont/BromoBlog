@@ -1,0 +1,43 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html"
+    (dict "extraCssPath" "styles/artProjects.css") -}}
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <nav class="artProjectNavegation">
+        <a class="subNavLinks" href="/nada">
+            <h3>Arte 3D</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Fotografia</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Filmes</h3>
+        </a>
+        <a class="subNavLinks" href="/nada">
+            <h3>Artes Gerais</h3>
+        </a>
+    </nav>
+
+    <hr class="artProjectNavDivider">
+
+    <section class="projectRows">
+        {{ $firstProject := site.GetPage "artwork/films/Turi"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+        
+        {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    </section>
+    <section class="projectRows">
+        {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+
+        {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+
+        {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    </section>
+</main>
+{{ end }}
