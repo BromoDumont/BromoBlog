@@ -1,0 +1,14 @@
+{{ define "head" }} 
+    {{- partial "heads/baseHead.html"
+    (dict "extraCssPath" "styles/journaling.css") -}}
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="articleIndex">
+        {{ range .Pages }}
+            {{- partial "articlePreview.html" . -}}
+        {{ end }}
+    </div>
+</main>
+{{ end }}

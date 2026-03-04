@@ -10,7 +10,7 @@
 }
 
 :root{
-    --background-colo: #131019;
+    --background-color: #131019;
     --big-text-color: #F0DDC2;
     --small-text-color: #F4D3A0;
 }
@@ -18,38 +18,14 @@
 
 /* Individual Elements */
 body{
-    background-color: var(--background-colo);
+    background-color: var(--background-color);
     font-family: "Lato", sans-serif;
-}
-
-figure{
-    margin: 25px 0px;
-}
-
-figcaption p{
-    text-align: center;
-    text-indent: 0em;
-    line-height: 1em;
-
-    padding: 0px;
+    color: var(--big-text-color);
 }
 
 h1{
     font-weight: 700;
     color: var(--big-text-color);
-}
-
-h2{
-    color: var(--big-text-color);
-}
-
-ul{
-    color: var(--small-text-color);
-    margin: 0em 0em 0em 1.5em;
-}
-
-li{
-    text-align: justify;
 }
 
 p{
@@ -65,19 +41,28 @@ p{
 a{
     color: var(--small-text-color);
     font-weight: bolder;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 /* Header */
 header{
-    margin: 15px auto 50px 35px;
-
+    margin: 15px 35px 50px;
     display: flex;
-
-    align-items: center;
+    align-items: stretch;
 }
 
-header > a{
+header > nav > a{
     text-decoration: none;
+    font-weight: 500;
+    flex: 1;
+}
+
+header > nav > a:hover{
+    font-weight: 700;
 }
 
 
@@ -88,17 +73,6 @@ nav{
     margin: 0px 25px;
 }
 
-nav a{
-    margin: 0px 0px 10px 0px;
-
-    text-decoration: none;
-    font-weight: 500;
-}
-
-nav a:hover{
-    font-weight: 700;
-}
-
 
 /* Main */
 main{
@@ -106,44 +80,9 @@ main{
     display: flex;
 }
 
-main > hr{
+hr{
     color: var(--small-text-color);
     margin: 0px 25px;
-}
-
-
-/* Article */
-article{
-    min-width: 270px;
-    max-width: 750px;
-    margin: 0px auto;
-}
-
-article a{
-    text-decoration: none;
-}
-
-article a:hover{
-    text-decoration: underline;
-}
-
-article > hr{
-    color: var(--small-text-color);
-    margin: 1em 0px;
-}
-
-article img{
-    max-width: 100%;
-    margin: 0px 0px 20px 0px;
-    border-radius: 5%;
-}
-
-article figure > img{
-    max-width: 100%;
-    margin: 0px auto .5em;
-    border-radius: 5%;
-
-    display: block;
 }
 
 
@@ -165,45 +104,6 @@ footer p{
     text-align: center;
 }
 
-footer a{
-    text-decoration: none;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
-
-
-/* Individual Elements */
-.date{
-    font-style: italic;
-    font-weight: 700;
-    text-indent: 0em;
-    padding: 0em;
-    margin: .5em 0em 1em 0em;
-}
-
-
-.lastJournalins{
-    min-width: 270px;
-    max-width: 750px;
-    max-height: 700px;
-    margin: 0px auto;
-    padding: 0px 15px 0px 0px;
-    overflow: scroll;
-}
-
-
-/* Article Index */
-.articleIndex{
-    color: var(--background-colo);
-    margin: 0px auto 50px auto;
-}
-
-.articleIndex li{
-    text-align: left;
-}
-
 
 /* Article Preview */
 .articlePreview{
@@ -220,138 +120,18 @@ footer a:hover{
     text-decoration: underline;
 }
 
-/* Art Project Index */
-.artProjectIndex{
-    color: var(--background-colo);
-    margin: 0px auto 50px auto;
-}
-
-/* Art Project Preview */
-.artProjectPreview{
-    min-width: 270px;
-    max-width: 950px;
-    margin: 0px auto 35px auto;
-
-    display: flex;
-}
-
-.artProjectPreview a{
-    text-decoration: none;
-}
-
-.artProjectPreview a:hover{
-    text-decoration: underline;
-}
-
-.artProjectPreview img{
-    max-width: 350px;
-    min-width: 100px;
-    max-height: 200px;
-    border-radius: 5%;
-}
-
-.artProjectPreviewText{
-    margin: 0px 25px;
-}
-
-
-/* Dev Log Index */
-.devLogIndex{
-    color: var(--background-colo);
-    margin: 0px auto 50px auto;
-}
-
-.devLogIndex li{
-    text-align: left;
-}
-
-/* Dev Log Preview */
-.devLogPreview{
-    min-width: 270px;
-    max-width: 950px;
-    margin: 0px auto 35px auto;
-}
-
-.devLogPreview a{
-    text-decoration: none;
-}
-
-.devLogPreview a:hover{
-    text-decoration: underline;
-}
-
-.devLogPreview img{
-    height: 250px;
-    aspect-ratio: 1 / 1;
-    border-radius: 5%;
-    object-fit: cover;  
-}
-
-.mainDevLogPreview{
-    display: flex;
-    margin: 0px 0px 15px 0px;
-}
-
-.devLogPreviewText{
-    margin: 0px 25px;
-    overflow: hidden;
-    height: 150px;
-}
-
-.devLogThumb{
-    width: 100%;
-    min-width: 270px;
-    max-width: 750px;
-
-    border-radius: 5%;
-}
-
-.metadataDevLogPreview{
-    display: flex;
-}
-
-.metadataDevLogPreview p{
-    text-indent: 0em;
-    line-height: normal;
-    padding: 0em;
-
-    margin: 0px;
-
-    font-style: italic;
-
-    align-content: center;
-}
-
-.metadataDevLogPreview hr{
-    color: var(--small-text-color);
-    
-    margin: 0px 8px;
-}
-
-.metadataDevLogPreview a{
-    margin: 0px 8px 0px 0px;
-}
-
-
 /* Metadata */
 .metadataPreview{
     display: flex;
     padding: 0px 0px 0px .5em;
 }
 
-.metadataPreview p{
-    text-indent: 0em;
-    line-height: normal;
-    padding: 0em;
-
-    font-style: italic;
-
-    align-content: center;
+.metadataPreview a{
+    margin: 0px 8px 0px 0px;
 }
 
 .metadataPreview hr{
     color: var(--small-text-color);
-    
     margin: 0px 8px;
 }
 
@@ -361,13 +141,22 @@ footer a:hover{
     margin: 0px 8px 0px 0px;
 }
 
-.metadataPreview a{
-    margin: 0px 8px 0px 0px;
+.date{
+    font-style: italic;
+
+    line-height: 1em;
+    text-indent: 0em;
+    padding: 0em;
 }
 
-/* Giscus Commentary Area */
-.giscus{
-    margin: 25px auto;
+/* Last Journalig */
+.lastJournalins{
+    min-width: 270px;
+    max-width: 750px;
+    max-height: 700px;
+    margin: 0px auto;
+    padding: 0px 15px 0px 0px;
+    overflow: scroll;
 }
 
 .erro404{
@@ -385,9 +174,8 @@ footer a:hover{
         flex-direction: column;
     }
 
-    main hr{
+    hr{
     color: var(--small-text-color);
-
     margin: 25px 0px;
     }
 }

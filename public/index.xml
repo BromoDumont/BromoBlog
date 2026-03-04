@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Hoje de manhã fiz alguns desenhos</title>
-      <link>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</link>
+      <link>http://localhost:1313/artwork/hojedemanhafizalgunsdesenhos/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</guid>
+      <guid>http://localhost:1313/artwork/hojedemanhafizalgunsdesenhos/</guid>
       <description>&lt;p&gt;Apesar de ter falado sobre a busca de aulas e livros ao comparar o aprendizado de cálculo e desenho hoje eu não usei diretamente nenhum livro ou aula vista hoje como base, por estar a um bom tempo imerso no estudo de artes num geral vou aproveitar esse começo para fazer algumas explorações mais livre e entender melhor o que quero de verdade, o que fiz hoje foi começar com uma explorações sobre formas de abajures e depois segui para uns desenhos de poses humanas rápidas (algo que pelos resultados fica obvio que eu ainda não estou nada preparado para). A ideia nesse último exercício foi usar algumas coisas que aprendi com o Rafa Souza sobre observação, mas antes de conseguir fazer isso rápido preciso fazer devagar, provavelmente o exercício daquela aula via ser algo que vou fazer daqui a não muito tempo.&lt;/p&gt;</description>
     </item>
     <item>
@@ -105,6 +105,48 @@
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</guid>
       <description>&lt;p&gt;A poucos dias eu fiquei sabendo do novo teaser da Bloober Team que provavelmente é do próximo projeto deles, isso por si só não é exatamente muita coisa, obviamente é interessante porque ser um novo projeto de um estúdio com bom histórico e isso também significa que provavelmente vão começar a realizar algumas contratações, porém, caso fosse &amp;ldquo;só&amp;rdquo; mais um jogo novo isso não mudaria muito para mim, entretanto parece que esse tal novo projeto está relacionado a Rule Of Rose.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CANGUARETAMA 2403</title>
+      <link>http://localhost:1313/artwork/films/canguaretama2403/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artwork/films/canguaretama2403/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TURI</title>
+      <link>http://localhost:1313/artwork/films/turi/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artwork/films/turi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stańczyk</title>
+      <link>http://localhost:1313/artrefs/stanczyk-jan_matejko1862/</link>
+      <pubDate>Wed, 31 Dec 1969 21:31:02 -0300</pubDate>
+      <guid>http://localhost:1313/artrefs/stanczyk-jan_matejko1862/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/artwork/photography/nubes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artwork/photography/nubes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/artwork/photography/ouvinte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artwork/photography/ouvinte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/artwork/photography/pedra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artwork/photography/pedra/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

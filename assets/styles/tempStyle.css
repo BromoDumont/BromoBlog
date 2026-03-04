@@ -1,0 +1,111 @@
+/* Art Project Index */
+.artProjectIndex{
+    color: var(--background-color);
+    margin: 0px auto 50px auto;
+}
+
+/* Art Project Preview */
+.artProjectPreview{
+    min-width: 270px;
+    max-width: 950px;
+    margin: 0px auto 35px auto;
+
+    display: flex;
+}
+
+.artProjectPreview a{
+    text-decoration: none;
+}
+
+.artProjectPreview a:hover{
+    text-decoration: underline;
+}
+
+.artProjectPreview img{
+    max-width: 350px;
+    min-width: 100px;
+    max-height: 200px;
+    border-radius: 5%;
+}
+
+.artProjectPreviewText{
+    margin: 0px 25px;
+}
+
+
+/* Dev Log Index */
+.devLogIndex{
+    color: var(--background-color);
+    margin: 0px auto 50px auto;
+}
+
+.devLogIndex li{
+    text-align: left;
+}
+
+/* Dev Log Preview */
+.devLogPreview{
+    min-width: 270px;
+    max-width: 950px;
+    margin: 0px auto 35px auto;
+}
+
+.devLogPreview a{
+    text-decoration: none;
+}
+
+.devLogPreview a:hover{
+    text-decoration: underline;
+}
+
+.devLogPreview img{
+    height: 250px;
+    aspect-ratio: 1 / 1;
+    border-radius: 5%;
+    object-fit: cover;  
+}
+
+.mainDevLogPreview{
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+
+.devLogPreviewText{
+    margin: 0px 25px;
+    overflow: hidden;
+    height: 150px;
+}
+
+.devLogThumb{
+    width: 100%;
+    min-width: 270px;
+    max-width: 750px;
+
+    border-radius: 5%;
+}
+
+.metadataDevLogPreview{
+    display: flex;
+}
+
+.metadataDevLogPreview p{
+    text-indent: 0em;
+    line-height: normal;
+    padding: 0em;
+
+    margin: 0px;
+
+    font-style: italic;
+
+    align-content: center;
+}
+
+.metadataDevLogPreview hr{
+    color: var(--small-text-color);
+    
+    margin: 0px 8px;
+}
+
+.metadataDevLogPreview a{
+    margin: 0px 8px 0px 0px;
+}

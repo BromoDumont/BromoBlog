@@ -1,0 +1,19 @@
+<div class="devLogPreview">
+    <div class="mainDevLogPreview">
+        <a href="{{ .RelPermalink }}">
+            {{ $artworkImg := resources.Get .Params.artworkImg }}
+            <img src="{{ $artworkImg.RelPermalink }}" alt="artworkImg" class="artworkImg">
+        </a>
+        <div class="devLogPreviewText">
+            <a href="{{ .RelPermalink }}">
+                <h1>{{ .Title }}</h1>
+                <p>{{ .Params.preview }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="metadataDevLogPreview">
+        <p>{{ time.Format "Mon, 02/Jan/06" .PublishDate }}</p>
+        <hr>
+        <p>{{ .Params.originalProject }}</p>
+    </div>
+</div>

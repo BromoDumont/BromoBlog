@@ -56,13 +56,13 @@
     <loc>http://localhost:1313/tags/art/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/artprojects/</loc>
+    <loc>http://localhost:1313/artwork/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/desenho/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/artprojects/hojedemanhafizalgunsdesenhos/</loc>
+    <loc>http://localhost:1313/artwork/hojedemanhafizalgunsdesenhos/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/journaling/umpassodecadavez/</loc>
@@ -76,5 +76,26 @@
   </url><url>
     <loc>http://localhost:1313/journaling/eloucuragemissoqueablooberteamestafazendo/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artwork/films/canguaretama2403/</loc>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/film/</loc>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artwork/films/turi/</loc>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artrefs/</loc>
+    <lastmod>1969-12-31T21:31:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artrefs/stanczyk-jan_matejko1862/</loc>
+    <lastmod>1969-12-31T21:31:02-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/artwork/photography/nubes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/artwork/photography/ouvinte/</loc>
+  </url><url>
+    <loc>http://localhost:1313/artwork/photography/pedra/</loc>
   </url>
 </urlset>
