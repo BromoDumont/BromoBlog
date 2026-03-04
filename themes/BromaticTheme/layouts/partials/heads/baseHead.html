@@ -6,9 +6,4 @@
     <link rel="shortcut icon" href="{{ $siteIcon.RelPermalink }}" type="image/x-icon">
     {{- $css := resources.Get "styles/style.css" -}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    
-    {{ with .extraCssPath }}
-        {{- $extraCss := resources.Get . -}}
-        <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
-    {{ end }}
 </head>

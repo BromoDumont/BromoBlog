@@ -1,6 +1,7 @@
 {{ define "head" }}
-    {{- partial "heads/baseHead.html"
-    (dict "extraCssPath" "styles/artProjects.css") -}}
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss := resources.Get "styles/artProjects.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
