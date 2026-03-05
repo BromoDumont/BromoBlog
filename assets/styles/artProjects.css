@@ -12,16 +12,17 @@ main{
     flex-direction: row;
 }
 
+.subNavLinks{
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
 .subNavLinks h3{
     font-weight: 500;
 }
 
 .subNavLinks h3:hover{
     font-weight: bold;
-}
-
-.subNavLinks{
-    margin: 0px 15px;
 }
 
 .projectRows{
@@ -40,18 +41,16 @@ main{
     margin: 0px 25px;
 }
 
+.projectThumb:hover .projectInfo{
+    opacity: 1;
+}
+
 .projectThumb:hover img{
-    border: 5px;
-    border-style: solid;
     border-color: var(--big-text-color);
 
     filter: brightness(50%);
 
     transform: scale(1.03);
-}
-
-.projectThumb:hover .projectInfo{
-    opacity: 1;
 }
 
 .projectThumb img{
@@ -62,9 +61,8 @@ main{
     width: 100%;
     aspect-ratio: 16/9;
 
-    border-radius: 2%;
-    border: 5px;
-    border-style: solid;
+    border-radius: 25px;
+    border: 5px solid;
 
     transition: 
         filter 0.3s ease,
@@ -95,4 +93,8 @@ main{
 
 .projectInfo > hr{
     margin: 0px 25%;
+}
+
+#actualEnv h3{
+    font-style: oblique;
 }

@@ -2,7 +2,7 @@
 title: CANGUARETAMA 2403
 date: "2024-03-16"
 tags:
-    - filme
+    - film
 
 params:
     author: Bromo Dumont

@@ -6,20 +6,7 @@
 
 {{ define "main" }}
 <main>
-    <nav class="artProjectNavegation">
-        <a class="subNavLinks" href="/nada">
-            <h3>Arte 3D</h3>
-        </a>
-        <a class="subNavLinks" href="/nada">
-            <h3>Fotografia</h3>
-        </a>
-        <a class="subNavLinks" href="/nada">
-            <h3>Filmes</h3>
-        </a>
-        <a class="subNavLinks" href="/nada">
-            <h3>Artes Gerais</h3>
-        </a>
-    </nav>
+    {{- partial  "artwork/artworkNavBar.html" -}}
 
     <hr class="artProjectNavDivider">
 
@@ -29,6 +16,16 @@
         
         {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
         {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    </section>
+    <section class="projectRows">
+        {{ $firstProject := site.GetPage "artwork/photography/Nubes"}}
+        {{- partial "artwork/photographyProjects.html" $firstProject}}
+
+        {{ $firstProject := site.GetPage "artwork/photography/OUVINTE"}}
+        {{- partial "artwork/photographyProjects.html" $firstProject}}
+
+        {{ $firstProject := site.GetPage "artwork/photography/Pedra"}}
+        {{- partial "artwork/photographyProjects.html" $firstProject}}
     </section>
     <!--
     <section class="projectRows">
