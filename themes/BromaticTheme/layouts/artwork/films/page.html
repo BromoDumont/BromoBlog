@@ -1,0 +1,24 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss1 := resources.Get "styles/films.css" -}}
+    {{- $extraCss2 := resources.Get "styles/journaling.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="filmHeader">
+        <h1>{{ .Title }}</h1>
+        <p class="date">{{ time.Format "Mon, 02/Jan/06" .PublishDate }}</p>
+    </div>
+    <div class="embededVideo">
+        <iframe src="https://www.youtube.com/embed/{{ .Params.videoID }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <article>
+        {{ .Content }}
+        {{- partial "commentSection.html" . -}}
+    </article>
+</main>
+{{ end }}

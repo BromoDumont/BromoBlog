@@ -23,6 +23,16 @@ body{
     color: var(--big-text-color);
 }
 
+main{
+    padding: 0px 25px 50px;
+    display: flex;
+}
+
+hr{
+    color: var(--small-text-color);
+    margin: 0px 25px;
+}
+
 h1{
     font-weight: 700;
     color: var(--big-text-color);
@@ -65,23 +75,9 @@ header > nav > a:hover{
     font-weight: 700;
 }
 
-
-/* Nav */
 nav{
     display: flex;
     flex-direction: column;
-    margin: 0px 25px;
-}
-
-
-/* Main */
-main{
-    padding: 0px 25px 50px;
-    display: flex;
-}
-
-hr{
-    color: var(--small-text-color);
     margin: 0px 25px;
 }
 
@@ -99,6 +95,9 @@ aside > h1{
 
 
 /* Footer */
+footer{
+    margin: 0px 0px 25px;
+}
 footer p{
     padding: 0em 0em .5em 0em;
     text-align: center;
