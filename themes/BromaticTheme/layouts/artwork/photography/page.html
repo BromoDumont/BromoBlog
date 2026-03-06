@@ -12,3 +12,8 @@
     {{ .Content }}
 </main>
 {{ end }}
+
+{{ define "script" }}
+    {{- $lightboxScript := resources.Get "javascript/lightbox.js" -}}
+    <script src="{{ $lightboxScript.RelPermalink }}" defer></script>
+{{ end }}

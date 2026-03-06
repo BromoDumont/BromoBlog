@@ -10,6 +10,27 @@ img{
     border-radius: 25px;
 }
 
+.lightbox-img{
+    cursor: zoom-in;
+}
+
+.lightbox{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9999;
+}
+
+.lightbox img{
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
 .galleryRow{
     display: flex;
     grid-gap: 20px;
