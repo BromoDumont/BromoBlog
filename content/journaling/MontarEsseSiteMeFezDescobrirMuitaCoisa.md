@@ -20,4 +20,5 @@ Conseguir se deixar cativar pelos variados temas que nos atraem e entender as po
 ---
 
 Não sei direito como finalizar esse texto, mas te agradeço por ter lido ate aqui.
+
 Lembre-se: Apesar de tudo a vida é bela
