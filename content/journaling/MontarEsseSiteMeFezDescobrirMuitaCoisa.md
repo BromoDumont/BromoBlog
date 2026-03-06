@@ -4,8 +4,8 @@ publishDate: 2026-03-06T11:45:00-03:00
 tags:
   - Journaling
 params:
-author: Bromo Dumont
-preview: É engraçado pensar que em um momento onde tanto busco um emprego paro mais de uma semana para montar um site que poderia ter sido feito em, provavelmente, um ou dois dias caso eu estivesse usando de maneira mais intensa inteligência artificial.
+    author: Bromo Dumont
+    preview: É engraçado pensar que em um momento onde tanto busco um emprego paro mais de uma semana para montar um site que poderia ter sido feito em, provavelmente, um ou dois dias caso eu estivesse usando de maneira mais intensa inteligência artificial.
 ---
 Não que essa fosse uma desculpa que eu me dava de maneira recorrente, mas, agora (ou menor: daqui pouco tempo, porque ainda não terminei a versão base) tenho um lugar no qual consigo expor minas obras de maneira muito mais interessante e eficiente que o adobe portfolio. Agora não mais preciso ficar montando layouts em imagens para tentar botar para fora meus impulsos de compartilhar as coisas de maneira mais detalhada. Agora não vou ficar limitado, por tempo, em apenas ter a parte final do projeto com uma apresentação descente.
 
