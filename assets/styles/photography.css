@@ -1,0 +1,34 @@
+main{
+    flex-direction: column;
+}
+
+h1{
+    margin: 0px auto 50px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.galleryRow{
+    display: flex;
+    grid-gap: 20px;
+    margin: 0px auto 20px;
+    max-width: 1200px;
+}
+
+.galleryRow > *{
+    flex-grow: calc(var(--width) * (100000 / var(--height)));
+    flex-basis: calc(250px * (var(--width) / var(--height)));
+    aspect-ratio: var(--width) / var(--height);
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.galleryRow > * > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
