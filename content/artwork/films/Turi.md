@@ -2,7 +2,7 @@
 title: TURI
 date: "2025-06-24"
 tags:
-    - filme
+    - film
 
 params:
     author: Bromo Dumont

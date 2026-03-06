@@ -1,0 +1,10 @@
+<div class="galleryRow">
+    {{ range .Params }}
+        {{ $photo := resources.Get (printf "imgs/artworks/%s" .) }}
+        {{ $photoWidth := $photo.Width }}
+        {{ $photoHeight := $photo.Height }}
+        {{ with $photo }}
+            <img src="{{ .RelPermalink }}" style="--width: {{ $photoWidth }}; --height: {{ $photoHeight }}" alt="Image" loading="lazy">
+        {{ end }}
+    {{ end }}
+</div>
