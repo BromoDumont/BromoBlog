@@ -7,7 +7,7 @@ tags:
 params:
     author: Bromo Dumont
     preview: 
-    projectThumb: imgs/artworks/photography/OUVINTE/OUVINTE_Thumb.jpg
+    projectThumb: imgs/artworks/Photography/OUVINTE/OUVINTE_Thumb.jpg
 ---
 {{< galleryRow 
     "Photography/OUVINTE/OUVINTE_01.jpg"

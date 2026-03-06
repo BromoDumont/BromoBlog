@@ -7,7 +7,7 @@ tags:
 params:
     author: Bromo Dumont
     preview: 
-    projectThumb: imgs/artworks/photography/Nubes/Nubes_Thumb.jpg
+    projectThumb: imgs/artworks/Photography/Nubes/Nubes_Thumb.jpg
 ---
 {{< galleryRow 
     "Photography/Nubes/Nubes__1.png"

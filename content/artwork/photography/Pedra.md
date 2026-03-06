@@ -7,7 +7,7 @@ tags:
 params:
     author: Bromo Dumont
     preview: 
-    projectThumb: imgs/artworks/photography/Pedra/Pedra_thumb.jpg
+    projectThumb: imgs/artworks/Photography/Pedra/Pedra_thumb.jpg
 ---
 {{< galleryRow 
     "Photography/Pedra/Pedra_01.jpg"
