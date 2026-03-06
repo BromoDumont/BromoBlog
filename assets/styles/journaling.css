@@ -4,6 +4,14 @@ article{
     margin: 0px auto;
 }
 
+article p{
+    padding: 0em 0em 1em;
+}
+
+article .date{
+    margin: .5em 0em 1em;
+}
+
 article a{
     text-decoration: none;
 }

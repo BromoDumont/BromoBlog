@@ -41,7 +41,7 @@ h1{
 p{
     font-weight: 400;
     color: var(--small-text-color);
-    padding: .5em;
+    padding: 0em 0em .5em;
 
     text-align: justify;
     text-indent: 1.5em;
@@ -122,7 +122,6 @@ footer p{
 /* Metadata */
 .metadataPreview{
     display: flex;
-    padding: 0px 0px 0px .5em;
 }
 
 .metadataPreview a{
@@ -142,6 +141,8 @@ footer p{
 
 .date{
     font-style: italic;
+
+    font-weight: bold;
 
     line-height: 1em;
     text-indent: 0em;
