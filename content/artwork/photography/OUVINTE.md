@@ -46,3 +46,12 @@ params:
 {{< galleryRow 
     "Photography/OUVINTE/OUVINTE_14.jpg"
 >}}
+
+{{< galleryRow
+    "Photography/OUVINTE/OUVINTE_1646.jpg"
+    "Photography/OUVINTE/OUVINTE_1651.jpg"
+>}}
+
+{{< galleryRow 
+    "Photography/OUVINTE/OUVINTE_1661.jpg"
+>}}
