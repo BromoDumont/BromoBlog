@@ -1,0 +1,50 @@
+.pictureProfile{
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    margin: 0px auto 25px;
+}
+
+.fullProfile{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 450px;
+}
+
+.fullProfile p{
+    text-align: center;
+    margin: 1em auto;
+    text-indent: 0em;
+}
+
+.fullProfile a{
+    margin: .5em auto;
+    text-decoration: underline;
+}
+
+.parametersRow{
+    color: var(--small-text-color);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.parametersRow li{
+    text-indent: 0em;
+    list-style-type: none;
+}
+
+.linkTo3DArt {
+    text-decoration: none !important;
+    margin: 1em auto 3em !important;
+}
+
+.linkTo3DArt:hover {
+    text-decoration: underline !important;
+}

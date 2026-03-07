@@ -1,0 +1,41 @@
+{{ define "head" }} 
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss := resources.Get "styles/resume.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="fullProfile">
+        {{ $pictureProfile := resources.Get "imgs/permanent/Bromo_Picture_Profile.jpg"}}
+        <img class="pictureProfile" src="{{ $pictureProfile.RelPermalink }}"    alt="Picture Profile">
+
+        <h1>{{ .Params.author }}</h1>
+
+        <a class="email" href="{{ .Params.email }}"><h3>{{ .Params.email }}</h3></a>
+
+        <p>Hey, how’s it going? I’m currently open to opportunities and work — feel free to send me an email if anything comes up ツ</p>
+
+        <div class="parametersRow">
+            <section>
+                <h3>Softwares:</h3>
+                <ul>
+                    <li>- Blender</li>
+                    <li>- Substance Painter</li>
+                    <li>- Substance Designer</li>
+                    <li>- Unreal Engine</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Languages:</h3>
+                <ul>
+                    <li>- Portuguese (Native)</li>
+                    <li>- English (Working Proficiency)</li>
+                </ul>
+            </section>
+        </div>
+
+        <a class="linkTo3DArt" href="{{ absURL "artwork/3dart"}}"><h3>You can found some of my 3D Artworks clicking here!</h3></a>
+    </div>
+</main>
+{{ end }}
