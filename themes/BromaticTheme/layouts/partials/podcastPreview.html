@@ -1,0 +1,10 @@
+<iframe
+    data-testid="embed-iframe"
+    src="https://open.spotify.com/embed/episode/{{ .Params.episodeID }}?utm_source=generator"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+></iframe>
+{{- partial "metadata/podcastMetadata.html" . -}}
+<p>
+    {{ .Params.preview }}
+</p>

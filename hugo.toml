@@ -1,4 +1,4 @@
-baseURL = 'https://blog.bromo.art.br/'
+baseURL = 'https://bromo.art.br/'
 languageCode = 'pt'
 title = 'Bromo Blog'
 theme = 'BromaticTheme'

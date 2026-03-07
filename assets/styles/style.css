@@ -124,6 +124,17 @@ footer p{
     display: flex;
 }
 
+.metadataPreview *{
+    font-weight: bold;
+}
+
+.metadataPreview p{
+    line-height: 1em;
+    text-indent: 0em;
+    margin: 0px 1em;
+    padding: 0em;
+}
+
 .metadataPreview a{
     margin: 0px 8px 0px 0px;
 }
@@ -141,8 +152,6 @@ footer p{
 
 .date{
     font-style: italic;
-
-    font-weight: bold;
 
     line-height: 1em;
     text-indent: 0em;

@@ -1,7 +1,12 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" . -}}
+{{ end }}
+
 {{ define "main" }}
   <div class="erro404">
     <h1>Erro 404</h1>
     <h2>Página não encontrada</h2>
+    <h3>Provavelmente está em construção</h3>
     <p>
       <a href="{{ .Site.Home.RelPermalink }}">
         Voltar para a página inicial.
