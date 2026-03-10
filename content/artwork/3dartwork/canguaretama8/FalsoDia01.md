@@ -7,8 +7,8 @@ tags:
 params:
     author: Bromo Dumont
     originalProject: Canguaretama ∞
-    devLogThumb: imgs/artworks/Canguaretama8/fotos/260224-Cang8_Igreja.jpg
     preview: "Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente)."
+    devLogThumb: imgs/artworks/Canguaretama8/fotos/260224-Cang8_Igreja.jpg
 ---
 Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente).
 

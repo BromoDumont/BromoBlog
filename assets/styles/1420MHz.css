@@ -18,6 +18,10 @@
     border-radius: 12px;
 }
 
+.podcastRow > p{
+    margin: 0px 0px 50px;
+}
+
 .podcastRow p{
     max-width: 500px;
 }

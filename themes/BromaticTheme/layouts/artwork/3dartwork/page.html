@@ -1,0 +1,21 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss1 := resources.Get "styles/1420MHz.css" -}}
+    {{- $extraCss2 := resources.Get "styles/journaling.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <article>
+        
+        <section class="podcastRow">
+            {{- partial "podcastSpotifyCapsule.html" . -}}
+        </section>
+
+        {{ .Content }}
+        {{- partial "commentSection.html" . -}}
+    </article>
+</main>
+{{ end }}

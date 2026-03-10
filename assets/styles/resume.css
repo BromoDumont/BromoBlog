@@ -1,4 +1,4 @@
-.pictureProfile{
+.profilePicture{
     border-radius: 50%;
     max-width: 300px;
     width: 100%;
@@ -43,6 +43,7 @@
 .linkTo3DArt {
     text-decoration: none !important;
     margin: 1em auto 3em !important;
+    font-style: italic !important;
 }
 
 .linkTo3DArt:hover {

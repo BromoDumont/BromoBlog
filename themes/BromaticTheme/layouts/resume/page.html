@@ -7,14 +7,14 @@
 {{ define "main" }}
 <main>
     <div class="fullProfile">
-        {{ $pictureProfile := resources.Get "imgs/permanent/Bromo_Picture_Profile.jpg"}}
-        <img class="pictureProfile" src="{{ $pictureProfile.RelPermalink }}"    alt="Picture Profile">
+        {{ $profilePicture := resources.Get .Params.profilePicture }}
+        <img class="profilePicture" src="{{ $profilePicture.RelPermalink }}"    alt="Picture Profile">
 
         <h1>{{ .Params.author }}</h1>
 
         <a class="email" href="{{ .Params.email }}"><h3>{{ .Params.email }}</h3></a>
 
-        <p>Hey, how’s it going? I’m currently open to opportunities and work — feel free to send me an email if anything comes up ツ</p>
+        <p>{{ .Params.presentation }}</p>
 
         <div class="parametersRow">
             <section>
