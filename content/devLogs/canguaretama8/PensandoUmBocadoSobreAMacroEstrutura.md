@@ -1,6 +1,6 @@
 ---
 title: Pensando um bucado sobre a macro estrutura
-publishDate: 2026-03-07T21:17:00-03:00
+publishDate: 2026-03-09T21:17:00-03:00
 tags:
     - DevLog
 
