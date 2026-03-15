@@ -18,8 +18,8 @@
     border-radius: 12px;
 }
 
-.podcastRow > p{
-    margin: 0px 0px 50px;
+.podcastRow p{
+    margin: 0px 10px 50px;
 }
 
 .podcastRow p{

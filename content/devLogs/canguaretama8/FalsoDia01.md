@@ -7,8 +7,12 @@ tags:
 params:
     author: Bromo Dumont
     originalProject: Canguaretama ∞
-    preview: "Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente)."
+    episodeThumb: imgs/artworks/Films/Canguaretama2403/CANGUARETAMA_2403-Thumb.jpg
     devLogThumb: imgs/artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png
+    episodeID:
+    episodeSeason: 00
+    episodeNumber: 00
+    preview: "Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente)."
 ---
 Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente).
 

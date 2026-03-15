@@ -9,6 +9,7 @@
     <section class="podcastRow">
         {{ range .Pages }}
             {{- partial "podcastPreview.html" . -}}
+            <p>{{ .Params.preview }}</p>
         {{ end }}
     </section>
 </main>

@@ -22,6 +22,15 @@ h1{
     line-height: 1em;
 }
 
+.projectHeader .date{
+    text-align: center;
+    
+    padding: 0em;
+    margin: 0.2em 0px 0px;
+    text-indent: 0em;
+    line-height: 1em;
+}
+
 .projectDevLogIndex{
     display: flex;
     margin: 0px auto 50px;

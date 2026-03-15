@@ -1,5 +1,5 @@
 {{ define "head" }}
-    {{- partial "heads/baseHead.html" -}}
+    {{- partial "heads/baseHead.html" . -}}
     {{- $extraCss := resources.Get "styles/artProjects.css" -}}
     <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
 {{ end }}
@@ -12,13 +12,13 @@
 
     <section class="projectRows">
         {{ $firstProject := site.GetPage "artwork/photography/Nubes"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
         {{ $firstProject := site.GetPage "artwork/photography/OUVINTE"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
         {{ $firstProject := site.GetPage "artwork/photography/Pedra"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
     </section>
 </main>
 {{ end }}
