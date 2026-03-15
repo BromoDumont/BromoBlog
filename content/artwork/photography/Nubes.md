@@ -8,6 +8,7 @@ params:
     author: Bromo Dumont
     preview: 
     projectThumb: imgs/artworks/Photography/Nubes/Nubes_Thumb.jpg
+    thumbAspectRatio: 16/9
 ---
 {{< galleryRow 
     "Photography/Nubes/Nubes_1.jpg"

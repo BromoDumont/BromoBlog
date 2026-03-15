@@ -1,11 +1,19 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss := resources.Get "styles/devLogs.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+{{ end }}
+
 {{ define "main" }}
 <main>
-    <ul class="devLogIndex">
+    <section class="projectHeader">
+        <h1>{{ .Title }}</h1>
+        <h2>Dev Logs</h2>
+    </section>
+    <section class="projectDevLogIndex">
         {{ range .Pages }}
-        <li>
-            {{- partial "devLogPreview.html" . -}}
-        </li>
+            {{- partial "artwork/floppyDevLog.html.html" . -}}
         {{ end }}
-    </ul>
+    </section>
 </main>
 {{ end }}

@@ -1,0 +1,18 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" -}}
+    {{- $extraCss := resources.Get "styles/artProjects.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    {{- partial  "artwork/artworkNavBar.html" . -}}
+
+    <hr class="artProjectNavDivider">
+
+    <section class="projectRows">
+        {{ $firstProject := site.GetPage "artwork/3dartwork/canguaretama8"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}        
+    </section>
+</main>
+{{ end }}

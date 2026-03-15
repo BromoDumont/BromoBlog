@@ -11,6 +11,10 @@
     <hr class="artProjectNavDivider">
 
     <section class="projectRows">
+        {{ $firstProject := site.GetPage "artwork/3dartwork/Canguaretama8"}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    </section>
+    <section class="projectRows">
         {{ $firstProject := site.GetPage "artwork/films/Turi"}}
         {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
         
@@ -19,13 +23,13 @@
     </section>
     <section class="projectRows">
         {{ $firstProject := site.GetPage "artwork/photography/Nubes"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
         {{ $firstProject := site.GetPage "artwork/photography/OUVINTE"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
         {{ $firstProject := site.GetPage "artwork/photography/Pedra"}}
-        {{- partial "artwork/photographyProjects.html" $firstProject}}
+        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
     </section>
 </main>
 {{ end }}

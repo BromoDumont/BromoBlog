@@ -8,6 +8,7 @@ params:
     author: Bromo Dumont
     preview: 
     projectThumb: imgs/artworks/Photography/OUVINTE/OUVINTE_Thumb.jpg
+    thumbAspectRatio: 16/9
 ---
 {{< galleryRow 
     "Photography/OUVINTE/OUVINTE_01.jpg"

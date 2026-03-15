@@ -1,0 +1,15 @@
+<a href="{{ .RelPermalink }}" class="devLogFloppyDisk">
+    {{- $floppyDiskIMG := resources.Get "imgs/permanent/floppyDisk.png" }}
+    <img src="{{ $floppyDiskIMG.RelPermalink }}" alt="">
+    
+    {{- $thumbImg := resources.Get .Params.devLogThumb }}
+    {{ $mask := resources.Get "imgs/permanent/floppyDisk_ThumbMask.png" }}
+    <div class="mask" style="--maskLink: url('{{ $mask.RelPermalink }}')">
+        <img class="devLogThumb" src="{{ $thumbImg.RelPermalink }}" alt="">
+    </div>
+
+    <div class="devLogInfo">
+        <p class="date">{{ time.Format "Mon, 02/Jan/06" .PublishDate }} - {{ .Params.originalProject }}</p>
+        <h2> {{ .Title }}</h2>
+    </div>
+</a>
