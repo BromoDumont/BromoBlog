@@ -3,6 +3,7 @@ title: Pensando um bucado sobre a macro estrutura
 publishDate: 2026-03-09T21:17:00-03:00
 tags:
     - DevLog
+    - Canguaretama ∞
 
 params:
     author: Bromo Dumont

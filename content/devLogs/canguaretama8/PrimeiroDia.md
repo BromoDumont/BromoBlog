@@ -3,6 +3,7 @@ title: Primeiro dia
 publishDate: 2026-03-06T22:46:00-03:00
 tags:
     - DevLog
+    - Canguaretama ∞
 
 params:
     author: Bromo Dumont

@@ -7,7 +7,7 @@
 {{ define "main" }}
 <main>
     <div class="lastJournalins">
-        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling") }}
+        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs" ) }}
         
         {{ $pages = sort $pages "Date" "desc" }}
         {{ range first 5 $pages }}
@@ -21,7 +21,7 @@
         <h1>Último episódio do 1420MHz</h1>
         {{ range first 1 (site.GetPage "1420MHz").Pages }}
             <section class="podcastRow">
-                {{- partial "podcastPreview.html" . -}}
+                {{- partial "podcastPlayer/podcastPreview.html" . -}}
             </section>
         {{ end }}
 

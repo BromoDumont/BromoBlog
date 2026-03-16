@@ -1,14 +1,16 @@
 {{ define "head" }}
     {{- partial "heads/baseHead.html" . -}}
-    {{- $extraCss := resources.Get "styles/1420MHz.css" -}}
-    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+    {{- $extraCss1 := resources.Get "styles/1420MHz.css" -}}
+    {{- $extraCss2 := resources.Get "styles/podcastPlayer.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
 <main>
     <section class="podcastRow">
         {{ range .Pages }}
-            {{- partial "podcastPreview.html" . -}}
+            {{- partial "podcastPlayer/podcastPreview.html" . -}}
             <p>{{ .Params.preview }}</p>
         {{ end }}
     </section>

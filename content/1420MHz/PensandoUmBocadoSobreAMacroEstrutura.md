@@ -7,6 +7,7 @@ tags:
 
 params:
     author: Bromo Dumont
+    originalProject: Canguaretama ∞
     episodeThumb: imgs/artworks/Films/Canguaretama2403/CANGUARETAMA_2403-Thumb.jpg
     episodeID: 4uIvBTFXb0mZPATJwNovde
     episodeSeason: 01
