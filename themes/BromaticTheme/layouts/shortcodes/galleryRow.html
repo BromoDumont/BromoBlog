@@ -1,10 +1,12 @@
 <div class="galleryRow">
-    {{ range .Params }}
-        {{ $photo := resources.Get (printf "imgs/artworks/%s" .) }}
-        {{ $photoWidth := $photo.Width }}
-        {{ $photoHeight := $photo.Height }}
-        {{ with $photo }}
-            <img class="lightbox-img" src="{{ .RelPermalink }}" style="--width: {{ $photoWidth }}; --height: {{ $photoHeight }}" alt="Image" loading="lazy">
-        {{ end }}
+{{ range .Params }}
+    {{ with resources.Get (printf "imgs/artworks/%s" .) }}
+        <img 
+            class="lightbox-img" 
+            src="{{ .RelPermalink }}" 
+            style="--width: {{ .Width }}; --height: {{ .Height }}"
+            alt="Image" 
+            loading="lazy">
     {{ end }}
+{{ end }}
 </div>

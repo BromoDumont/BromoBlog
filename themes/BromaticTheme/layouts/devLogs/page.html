@@ -3,9 +3,11 @@
     {{- $extraCss1 := resources.Get "styles/devLogs.css" -}}
     {{- $extraCss2 := resources.Get "styles/journaling.css" -}}
     {{- $extraCss3 := resources.Get "styles/1420MHz.css" -}}
+    {{- $extraCss4 := resources.Get "styles/photography.css" -}}
     <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
     <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
     <link rel="stylesheet" href="{{ $extraCss3.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss4.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
@@ -26,4 +28,9 @@
         {{- partial "commentSection.html" . -}}
     </article>
 </main>
+{{ end }}
+
+{{ define "script" }}
+    {{- $lightboxScript := resources.Get "javascript/lightbox.js" -}}
+    <script src="{{ $lightboxScript.RelPermalink }}" defer></script>
 {{ end }}

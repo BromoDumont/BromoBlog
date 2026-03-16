@@ -1,7 +1,9 @@
 {{ define "head" }} 
     {{- partial "heads/baseHead.html" . -}}
-    {{- $extraCss := resources.Get "styles/journaling.css" -}}
-    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+    {{- $extraCss1 := resources.Get "styles/journaling.css" -}}
+    {{- $extraCss2 := resources.Get "styles/photography.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
