@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Canguaretama ∞ on Bromo Blog</title>
+    <link>http://localhost:1313/devlogs/canguaretama8/</link>
+    <description>Recent content in Canguaretama ∞ on Bromo Blog</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Mon, 09 Mar 2026 21:17:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/devlogs/canguaretama8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pensando um bucado sobre a macro estrutura</title>
+      <link>http://localhost:1313/devlogs/canguaretama8/pensandoumbocadosobreamacroestrutura/</link>
+      <pubDate>Mon, 09 Mar 2026 21:17:00 -0300</pubDate>
+      <guid>http://localhost:1313/devlogs/canguaretama8/pensandoumbocadosobreamacroestrutura/</guid>
+      <description>&lt;p&gt;Hoje o drama foi na Unreal Engine, mas como da para falar isso rápido eu aproveitei para explorar um tantinho mais sobre a macro estrutura que estou pensando para montar todo o projeto.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/imgs/artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png&#34;&#xA;    alt=&#34;Quadro de Referências&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Quadro de Referências&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Primeiro dia</title>
+      <link>http://localhost:1313/devlogs/canguaretama8/primeirodia/</link>
+      <pubDate>Fri, 06 Mar 2026 22:46:00 -0300</pubDate>
+      <guid>http://localhost:1313/devlogs/canguaretama8/primeirodia/</guid>
+      <description>&lt;p&gt;Primeiro episódio do 1420 MHz registra o momento em que terminei a parte inicial do ⁠novo site⁠ que vou usar como base daqui para frente, e marca o começo de uma nova fase das minhas produções artísticas.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/imgs/artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png&#34;&#xA;    alt=&#34;Quadro de Referências&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Quadro de Referências&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Falso dia 01</title>
+      <link>http://localhost:1313/devlogs/canguaretama8/falsodia01/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devlogs/canguaretama8/falsodia01/</guid>
+      <description>&lt;p&gt;Nesses últimos dias eu me acelerei para tentar terminar mais coisas e: fiquei mais cansado, consegui terminar menos coisas e fiquei adoentado. Acho que aquele eu que escreveu sobre intenção e maior cuidado com as tarefas do dia estava certo. Porém, apesar dessa lamentação, o Canguaretama ∞ não ficou totalmente parado e é sobre isso que vamos falar aqui (publiquei um journaling sobre a questão adjacente).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Apesar de ser o primeiro dia de log esse não é o primeiro dia do projeto, ele tem origem ali na noite do dia 23/02/26, o objetivo aqui é simples: completar múltiplas vezes o ciclo completo de produção de uma cena para que assim eu obtenha uma maior fluidez na parte de renderização na unreal engine. O número de cenas a serem feitas vão ser 8 pelo simples motivo: eu gosto do número 8 kkkkkk.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
