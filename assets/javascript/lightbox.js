@@ -41,4 +41,32 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    let startX = 0;
+    let endX = 0;
+    
+    lightbox.addEventListener("touchstart", e => {
+        startX = e.touches[0].clientX;
+    });
+    
+    lightbox.addEventListener("touchmove", e => {
+        endX = e.touches[0].clientX;
+    });
+    
+    lightbox.addEventListener("touchend", e => {
+        let diff = endX - startX;
+    
+        if(Math.abs(diff) > 50){ // mínimo para considerar swipe
+            if(diff > 0){
+                // swipe para a direita → imagem anterior
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+            } else {
+                // swipe para a esquerda → próxima imagem
+                currentIndex = (currentIndex + 1) % images.length;
+            }
+            showImage();
+        }
+    
+        startX = 0;
+        endX = 0;
+    });
 });
