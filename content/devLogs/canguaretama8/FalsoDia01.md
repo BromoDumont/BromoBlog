@@ -30,12 +30,12 @@ Até agora só sai para fotografar em um dia, nisso me vieram três fotos que re
 Por agora vou continuar trabalhando na primeira casa, o tempo vai mostrar o melhor caminho.
 
 {{< galleryRow
-    "3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01.jpg"
-    "3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01-Intern.jpg"
+    "artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01.jpg"
+    "artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01-Intern.jpg"
 >}}
 {{< galleryRow
-    "3DArtWork/Canguaretama8/fotos/260224-Cang8_Igreja.jpg"
+    "artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Igreja.jpg"
 >}}
 {{< galleryRow
-    "3DArtWork/Canguaretama8/prints/PA_PS-260226_01.png"
+    "artworks/3DArtWork/Canguaretama8/prints/PA_PS-260226_01.png"
 >}}

@@ -10,10 +10,10 @@ params:
     projectThumb: imgs/artworks/Photography/Pedra/Pedra_thumb.jpg
 ---
 {{< galleryRow 
-    "Photography/Pedra/Pedra_01.jpg"
+    "artworks/Photography/Pedra/Pedra_01.jpg"
 >}}
 
 {{< galleryRow 
-    "Photography/Pedra/Pedra_02.jpg"
-    "Photography/Pedra/Pedra_03.jpg"
+    "artworks/Photography/Pedra/Pedra_02.jpg"
+    "artworks/Photography/Pedra/Pedra_03.jpg"
 >}}

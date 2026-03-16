@@ -1,6 +1,6 @@
 <div class="galleryRow">
 {{ range .Params }}
-    {{ with resources.Get (printf "imgs/artworks/%s" .) }}
+    {{ with resources.Get (printf "imgs/%s" .) }}
         <img 
             class="lightbox-img" 
             src="{{ .RelPermalink }}" 

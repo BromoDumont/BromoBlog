@@ -2,7 +2,7 @@ main{
     flex-direction: column;
 }
 
-h1{
+.albumTitle{
     margin: 0px auto 50px;
 }
 

@@ -18,5 +18,5 @@ params:
 Primeiro episódio do 1420 MHz registra o momento em que terminei a parte inicial do ⁠novo site⁠ que vou usar como base daqui para frente, e marca o começo de uma nova fase das minhas produções artísticas.
 
 {{< galleryRow
-    "3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png"
+    "artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png"
 >}}
