@@ -1,5 +1,5 @@
 ---
-title: Template Journaling
+title: Mentindo para si
 publishDate: 2026-03-16T10:19:00-03:00
 tags:
   - Journaling
