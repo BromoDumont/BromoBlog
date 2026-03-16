@@ -28,7 +28,7 @@ Até agora só sai para fotografar em um dia, nisso me vieram três fotos que re
 
 Por agora vou continuar trabalhando na primeira casa, o tempo vai mostrar o melhor caminho.
 
-{{< figure src="imgs/artProjects/Canguaretama8/fotos/260224-Cang8_Casa01.jpg"        caption="Casa 01" >}}
-{{< figure src="imgs/artProjects/Canguaretama8/fotos/260224-Cang8_Casa01-Intern.jpg" caption="Parte interna da casa 01" >}}
-{{< figure src="imgs/artProjects/Canguaretama8/fotos/260224-Cang8_Igreja.jpg"        caption="Igreja central da cidade" >}}
-{{< figure src="imgs/artProjects/Canguaretama8/prints/260226_PS_Preview-01.png"      caption="Print de Preview de Material" >}}
+{{< figure src="imgs/artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01.jpg"        caption="Casa 01" >}}
+{{< figure src="imgs/artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Casa01-Intern.jpg" caption="Parte interna da casa 01" >}}
+{{< figure src="imgs/artworks/3DArtWork/Canguaretama8/fotos/260224-Cang8_Igreja.jpg"        caption="Igreja central da cidade" >}}
+{{< figure src="imgs/artworks/3DArtWork/Canguaretama8/prints/PA_PS-260226_01.png"      caption="Print de Preview de Material" >}}

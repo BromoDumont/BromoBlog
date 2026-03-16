@@ -5,7 +5,9 @@
     {{- $thumbImg := resources.Get .Params.devLogThumb }}
     {{ $mask := resources.Get "imgs/permanent/floppyDisk_ThumbMask.png" }}
     <div class="mask" style="--maskLink: url('{{ $mask.RelPermalink }}')">
-        <img class="devLogThumb" src="{{ $thumbImg.RelPermalink }}" alt="">
+        {{ with $thumbImg }}
+            <img class="devLogThumb" src="{{ $thumbImg.RelPermalink }}" alt="">
+        {{ end }}
     </div>
 
     <div class="devLogInfo">

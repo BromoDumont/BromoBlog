@@ -4,7 +4,7 @@
     align-items: center;
     max-width: 1650px;
     width: 100%;
-    margin: 0px auto 50px;
+    margin: 15px auto 25px;
     gap: 15px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .podcastRow p{
-    margin: 0px 10px 50px;
+    margin: 0px 10px 15px;
 }
 
 .podcastRow p{

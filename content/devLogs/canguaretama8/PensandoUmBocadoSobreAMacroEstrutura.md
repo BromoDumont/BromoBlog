@@ -14,4 +14,6 @@ params:
     episodeNumber: 02
     preview: Hoje o drama foi na Unreal Engine, mas como da para falar isso rápido eu aproveitei para explorar um tantinho mais sobre a macro estrutura que estou pensando para montar todo o projeto.
 ---
+Hoje o drama foi na Unreal Engine, mas como da para falar isso rápido eu aproveitei para explorar um tantinho mais sobre a macro estrutura que estou pensando para montar todo o projeto.
+
 {{< figure src="imgs/artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png" caption="Quadro de Referências" >}}

@@ -1,20 +1,30 @@
 {{ define "head" }} 
     {{- partial "heads/baseHead.html" -}}
+    {{- $extraCss1 := resources.Get "styles/1420MHz.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
 <main>
     <div class="lastJournalins">
-        
         {{ $pages := where site.RegularPages "Section" "in" (slice "journaling") }}
+        
         {{ $pages = sort $pages "Date" "desc" }}
-
         {{ range first 5 $pages }}
             {{- partial "articlePreview.html" . -}}
         {{ end }}
     </div>
+
     <hr>
+
     <aside>
+        <h1>Último episódio do 1420MHz</h1>
+        {{ range first 1 (site.GetPage "1420MHz").Pages }}
+            <section class="podcastRow">
+                {{- partial "podcastPreview.html" . -}}
+            </section>
+        {{ end }}
+
         <H1>Sobre Mim</H1>
         <p>Eae, eu sou um artista conhecido como Bromo Dumont, entre as coisa que faço por tesão estão: desenvolvimento dejogos, fotografia, pesquisar sobre o baixo nível das coisas e me perder no meio de pesquisas.</p>
         <p>Resolvi fazer esse site para poder ter uma maneira simples de acessar e compartilhar algumas coisas que faço, um drama que já me ocorreu algumas vezes foi querer mostrar algo para outras pessoas e não ter uma maneira menos burocrática que o envio de um link para acesso a alguma plataforma de armazenamento em nuvem.</p>
