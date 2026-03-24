@@ -1,5 +1,5 @@
 ---
-title: "Falso dia 01"
+title: Falso dia 01
 publishDate: 2026-02-27
 tags:
     - DevLog

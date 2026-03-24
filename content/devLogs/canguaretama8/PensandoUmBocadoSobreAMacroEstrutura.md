@@ -11,7 +11,7 @@ params:
     episodeThumb: imgs/artworks/Films/Canguaretama2403/CANGUARETAMA_2403-Thumb.jpg
     devLogThumb: imgs/artworks/3DArtWork/Canguaretama8/BRSR260001_Canguaretama8-RefBoard.png
     episodeID: 4uIvBTFXb0mZPATJwNovde
-    episodeSeason: 02
+    episodeSeason: 01
     episodeNumber: 02
     preview: Hoje o drama foi na Unreal Engine, mas como da para falar isso rápido eu aproveitei para explorar um tantinho mais sobre a macro estrutura que estou pensando para montar todo o projeto.
 ---
