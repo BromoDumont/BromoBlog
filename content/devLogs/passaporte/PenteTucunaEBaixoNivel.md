@@ -9,7 +9,7 @@ params:
     author: Bromo Dumont
     originalProject: Passaporte
     episodeThumb: imgs/artworks/Films/Canguaretama2403/CANGUARETAMA_2403-Thumb.jpg
-    devLogThumb: imgs/artworks/3DArtWork/Passaporte/prints/BL_PS-260323_02.png
+    devLogThumb: imgs/artworks/3DArtWork/Passaporte/prints/PA_PS-260324_04.png
     episodeID: 3m1lmjyTAFa38O5R7PlOBb
     episodeSeason: 01
     episodeNumber: 04

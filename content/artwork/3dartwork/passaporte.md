@@ -7,7 +7,7 @@ tags:
 params:
     author: Bromo Dumont
     preview: 
-    projectThumb: imgs/artworks/3DArtWork/Passaporte/prints/BL_PS-260323_02.png
+    projectThumb: imgs/artworks/3DArtWork/Passaporte/prints/PA_PS-260324_04.png
     thumbAspectRatio: 3/1
     link: devlogs/passaporte
 ---
