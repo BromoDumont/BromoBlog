@@ -1,14 +1,21 @@
 <nav class="artProjectNavegation">
     <a class="subNavLinks" href="{{ absURL "artwork" }}" {{ if eq .RelPermalink "/artwork/" }}id="actualEnv"{{ end }}>
-        <h3>Home</h3>
+        <h3>Geral</h3>
     </a>
+    <!--
     <a class="subNavLinks" href="{{ absURL "artwork/3dartwork" }}" {{ if eq .RelPermalink "/artwork/3dartwork/" }}id="actualEnv"{{ end }}>
         <h3>Arte 3D</h3>
     </a>
+    -->
     <a class="subNavLinks" href="{{ absURL "artwork/photography" }}" {{ if eq .RelPermalink "/artwork/photography/" }}id="actualEnv"{{ end }}>
         <h3>Fotografia</h3>
     </a>
     <a class="subNavLinks" href="{{ absURL "artwork/films" }}" {{ if eq .RelPermalink "/artwork/films/" }}id="actualEnv"{{ end }}>
         <h3>Filmes</h3>
     </a>
+    <!--
+    <a class="subNavLinks" href="{{ absURL "artwork/sculptures" }}" {{ if eq .RelPermalink "/artwork/sculptures/" }}id="actualEnv"{{ end }}>
+        <h3>Esculturas</h3>
+    </a>
+    -->
 </nav>

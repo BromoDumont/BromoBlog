@@ -16,7 +16,7 @@ O que vim falar sobre hoje é algo que, de uma forma ou outra, está entrelaçad
 
 ---
 
-Hoje mais cedo eu vi uma entrevista como o Tony Tornado, o cara vai fazer 96 anos agora em Maio e está não só atuando como também cantando. Apesar de não achar que realmente vou chegar aos 96 anos ver que BR-3 é de 1970, quando tinha 40 anos, me fez relembrar o quanto acabamos tendo uma percepção muito distorcida do tempo.
+Hoje mais cedo eu vi uma entrevista como o Tony Tornado, o cara vai fazer 96 anos agora em Maio e está não só atuando como também cantando. Apesar de não achar que realmente vou chegar aos 96 anos ver que BR-3 é de 1970, quando ele tinha 40 anos, me fez relembrar o quanto acabamos tendo uma percepção muito distorcida do tempo.
 
 Fazer faculdade no "tempo certo", começar a namorar, casar, ter filho(a) antes de tal idade e etc; botar data para as coisas pode talvez ser o que mais atrapalha o curso da consumação das mesmas. Talvez o que ajude nesse processo seja ao mesmo tempo sempre lembrar-se da morte e respeitar o acontecimento das coisas vivendo o aqui e agora.
 
@@ -28,7 +28,7 @@ O trajeto foi seguido com o auxílio de um(a) mestre(a), as habilidades se const
 
 Isso me faz pensar sobre como mesmo quando não conseguimos estar na condição de aprendiz ainda podemos seguir de certa maneira uma base desse caminho: seguir uma trilha sem muitos desvios por motivos adjacentes. Ao mesmo tempo que escrevo isso me recordo de ouvir a Sula Moon falar em uma live sobre a estratégia de não ouvir música e dar mais atenção a cada pincelada nos estudos de pintura, ela estava comentando que isso ajudava muitas pessoas a evoluírem mais rapidamente; se pensarmos um pouco fica fácil notar a semelhança nas ideias basais.
 
-Acho que seguir uma trilha com atenção, intenção e sem muitos desvios no desenvolvimento base, talvez seja uma maneira de não se perder no meio do caminho.
+Acho que seguir uma trilha com atenção, intenção e sem muitos desvios no desenvolvimento base talvez seja uma maneira de não se perder no meio do caminho.
 
 ---
 

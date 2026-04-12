@@ -48,9 +48,3 @@ img{
     margin: 0;
     padding: 0;
 }
-
-.galleryRow > * > img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}

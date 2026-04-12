@@ -10,29 +10,40 @@
 
     <hr class="artProjectNavDivider">
 
-    <section class="projectRows">
-        {{ $firstProject := site.GetPage "artwork/3dartwork/Canguaretama8"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    <!--
+    {{ if in (slice "/artwork/" "/artwork/3dartwork/") .RelPermalink }}
+        <section class="projectRows">
+            {{ $firstProject := site.GetPage "artwork/temp/Canguaretama8"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
-        {{ $firstProject := site.GetPage "artwork/3dartwork/passaporte"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
-    </section>
-    <section class="projectRows">
-        {{ $firstProject := site.GetPage "artwork/films/Turi"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
-        
-        {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
-    </section>
-    <section class="projectRows">
-        {{ $firstProject := site.GetPage "artwork/photography/Nubes"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+            {{ $firstProject := site.GetPage "artwork/temp/passaporte"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+        </section>
+    {{ end }}
+    -->
 
-        {{ $firstProject := site.GetPage "artwork/photography/OUVINTE"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+    {{ if in (slice "/artwork/" "/artwork/films/") .RelPermalink }}
+        <section class="projectRows">
+            {{ $firstProject := site.GetPage "artwork/films/Turi"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
 
-        {{ $firstProject := site.GetPage "artwork/photography/Pedra"}}
-        {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
-    </section>
+            {{ $firstProject := site.GetPage "artwork/films/Canguaretama2403"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+        </section>
+    {{ end }}
+
+    {{ if in (slice "/artwork/" "/artwork/photography/") .RelPermalink }}
+        <section class="projectRows">
+            {{ $firstProject := site.GetPage "artwork/photography/Nubes"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+
+            {{ $firstProject := site.GetPage "artwork/photography/OUVINTE"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+
+            {{ $firstProject := site.GetPage "artwork/photography/Pedra"}}
+            {{- partial "artwork/artworkHomeProjects.html" $firstProject}}
+        </section>
+    {{ end }}
+
 </main>
 {{ end }}
