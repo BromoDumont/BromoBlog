@@ -1,6 +1,8 @@
-{{ $project01Thumb := resources.Get .Params.projectThumb }}
+{{ $project01Thumb := resources.Get (.Params.projectThumb | default "") }}
 <a href="{{ .Params.link | default .RelPermalink | relURL }}" class="projectThumb">
-    <img src="{{ $project01Thumb.RelPermalink }}" alt="PotiKatu Logo" style="--thumbAspectRatio: {{ .Params.thumbAspectRatio | default "16/9" | safeCSS }};">
+    {{ with $project01Thumb }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }} thumbnail" style="--thumbAspectRatio: {{ $.Params.thumbAspectRatio | default "16/9" | safeCSS }};">
+    {{ end }}
     <div class="projectInfo">
         <p>{{ .Title }}</p>
         <hr>

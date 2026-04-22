@@ -1,14 +1,16 @@
 {{ define "head" }}
     {{- partial "heads/baseHead.html" . -}}
-    {{- $extraCss1 := resources.Get "styles/films.css" -}}
-    {{- $extraCss2 := resources.Get "styles/journaling.css" -}}
+    {{- $extraCss1 := resources.Get "styles/artwork.css" -}}
+    {{- $extraCss2 := resources.Get "styles/films.css" -}}
+    {{- $extraCss3 := resources.Get "styles/journaling.css" -}}
     <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
     <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss3.RelPermalink }}">
 {{ end }}
 
 {{ define "main" }}
 <main>
-    <div class="filmHeader">
+    <div class="projectHeader">
         <h1>{{ .Title }}</h1>
         <p class="date">{{ time.Format "Mon, 02/Jan/06" .PublishDate }}</p>
     </div>
