@@ -1,11 +1,3 @@
-main{
-    flex-direction: column;
-}
-
-.albumTitle{
-    margin: 0px auto 50px;
-}
-
 img{
     border-radius: 25px;
 }
@@ -47,10 +39,4 @@ img{
     overflow: hidden;
     margin: 0;
     padding: 0;
-}
-
-.galleryRow > * > img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }

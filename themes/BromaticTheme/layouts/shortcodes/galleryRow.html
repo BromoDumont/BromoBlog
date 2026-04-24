@@ -1,12 +1,18 @@
-<div class="galleryRow">
+<figure class="galleryRow">
 {{ range .Params }}
-    {{ with resources.Get (printf "imgs/%s" .) }}
+    {{ $parts := split . "|" }}
+    {{ $img := trim (index $parts 0) " " }}
+    {{ $caption := cond (gt (len $parts) 1) (trim (index $parts 1) " ") "" }}
+    {{ with resources.Get (printf "imgs/%s" $img) }}
         <img 
             class="lightbox-img" 
             src="{{ .RelPermalink }}" 
             style="--width: {{ .Width }}; --height: {{ .Height }}"
-            alt="Image" 
+            alt="{{ $caption }}" 
             loading="lazy">
+        {{ if $caption }}
+            <figcaption>{{ $caption }}</figcaption>
+        {{ end }}
     {{ end }}
 {{ end }}
-</div>
+</figure>
