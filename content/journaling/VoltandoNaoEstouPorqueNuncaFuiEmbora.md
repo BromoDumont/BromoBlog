@@ -23,4 +23,4 @@ O caminho que me parece fazer mais sentido é continuar escrevendo e ir melhoran
 —
 
 Um último recado: não se esqueça que apesar de tudo a vida é bela!
-Muito obrigado por ter lido, até uma próxima ( :
+Muito obrigado por ter lido, até uma próxima (:
