@@ -5,8 +5,8 @@ tags:
   - Journaling
 
 params:
-    author: Bromo Dumont
-    preview: É interessante notar as particularidades do intervalo que fiquei sem escrever para aqui anterior ao texto precedente a esse e esse, o que aconteceu nesse tempo foi meio que mais um daqueles ciclos de produção e “crise”. o que me fez não escrever aqui foram, principalmente, duas coisas: a falta de organização e certa desconfiança da minha capacidade de estruturar as coisas direito. Claramente o segundo elemento deriva diretamente do primeiro.
+  author: Bromo Dumont
+  preview: "É interessante notar as particularidades do intervalo que fiquei sem escrever para aqui anterior ao texto precedente a esse e esse, o que aconteceu nesse tempo foi meio que mais um daqueles ciclos de produção e “crise”. o que me fez não escrever aqui foram, principalmente, duas coisas: a falta de organização e certa desconfiança da minha capacidade de estruturar as coisas direito. Claramente o segundo elemento deriva diretamente do primeiro."
 ---
 É interessante notar as particularidades do intervalo que fiquei sem escrever para aqui anterior ao texto precedente a esse e esse, o que aconteceu nesse tempo foi meio que mais um daqueles ciclos de produção e “crise”. o que me fez não escrever aqui foram, principalmente, duas coisas: a falta de organização e certa desconfiança da minha capacidade de estruturar as coisas direito. Claramente o segundo elemento deriva diretamente do primeiro.
 
