@@ -1,20 +1,23 @@
 baseURL = 'https://bromo.art.br/'
-languageCode = 'pt'
 title = 'Bromo Blog'
 theme = 'BromaticTheme'
 
+defaultContentLanguage = "pt-BR" 
+
+[languages]
+  [languages.pt-BR]
+    label = "Português (Brasil)"
+    locale = "pt-BR"
+    timeZone = "America/Bahia"
+
 [markup.goldmark.renderHooks.image]
-enableDefault = true
+useEmbedded = 'fallback'
 
 [markup.goldmark.renderHooks.link]
-enableDefault = true
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+useEmbedded = 'fallback'
 
 [taxonomies]
   tag = "tags"
 
-[paginatio]
+[pagination]
   pagerSize = 8
