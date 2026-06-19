@@ -20,4 +20,5 @@ useEmbedded = 'fallback'
   tag = "tags"
 
 [pagination]
+  disableAliases = true
   pagerSize = 8
