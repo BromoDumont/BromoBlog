@@ -7,7 +7,7 @@
 {{ define "main" }}
 <main>
     <div class="lastJournalins">
-        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs" ) }}
+        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs") }}
         
         {{ $pages = sort $pages "Date" "desc" }}
         {{ range first 5 $pages }}
@@ -18,15 +18,8 @@
     <hr>
 
     <aside>
-        <h1>Último episódio do 1420MHz</h1>
-        {{ range first 1 (site.GetPage "1420MHz").Pages }}
-            <section class="podcastRow">
-                {{- partial "podcastPlayer/podcastPreview.html" . -}}
-            </section>
-        {{ end }}
-
         <H1>Sobre Mim</H1>
-        <p>Eae, eu sou um artista conhecido como Bromo Dumont, entre as coisa que faço por tesão estão: desenvolvimento dejogos, fotografia, pesquisar sobre o baixo nível das coisas e me perder no meio de pesquisas.</p>
+        <p>Eae, eu sou um artista conhecido como Bromo Dumont, entre as coisa que faço por tesão estão: desenvolvimento de jogos, fotografia, pesquisar sobre o baixo nível das coisas e me perder no meio de pesquisas.</p>
         <p>Resolvi fazer esse site para poder ter uma maneira simples de acessar e compartilhar algumas coisas que faço, um drama que já me ocorreu algumas vezes foi querer mostrar algo para outras pessoas e não ter uma maneira menos burocrática que o envio de um link para acesso a alguma plataforma de armazenamento em nuvem.</p>
         <p>Aqui tu vai encontrar coisas como: brisas variadas, patch notes de sistemas que estou desenvolvendo, notas de estudo sobre temas variados, e mais algumas coisas que são dignas apenas as pessoas exploradoras.</p>
         <p>Se tu quiser entrar em contato comigo pode enviar ume-mail para o endereço: <a href="mailto:dumont@bromo.artbr">dumont@bromo.art.br</a></p>
