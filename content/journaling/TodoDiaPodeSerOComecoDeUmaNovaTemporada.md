@@ -15,3 +15,7 @@ A mudança na home do site é uma das coisas que eu vinha querendo fazer e aprov
 Muitas vezes o mais importante nas mudanças nem sempre é a melhora rápida das micro situações mas justamente a abertura de novas possibilidades para o futuro.
 
 Uma diferente abordagem eu vou tomar na produção de arte 3D e, talvez, amanhã eu escreva mais sobre, algo que eu já vinha pensando e aplicando em dada medida era trazer uma narrativa para todas as partes públicas do projeto e acho que é nessa direção que realmente tenho de ir. Com essa abordagem, ao mesmo tempo que crio algo interessante e que me agrada, uma cisão entre elementos mais basais vai se formando, muitas mudanças que vão acontecer em outras partes do site - incluindo a finalização de várias adições ainda em desenvolvimento - vão vir justamente por causa desse ponto.
+
+---
+
+Para deixar uma pista aqui né: os journalings antigos sinta existem aqui no site, não tem caminhos "naturais" para encontra-lo mas não é tão difícil achar.
