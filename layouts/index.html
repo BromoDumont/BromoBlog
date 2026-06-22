@@ -6,23 +6,42 @@
 
 {{ define "main" }}
 <main>
+    <div class="profile">
+        {{ $pictureProfile := resources.Get "imgs/permanent/Bromo_Profile_Picture.jpg" }}
+        <img src="{{ $pictureProfile.RelPermalink }}" alt="Picture Profile" class="profilePicture">
+        <p>Eae, eu sou um artista conhecido como <b>Bromo Dumont</b>, entre as coisa que faço por tesão estão: desenvolvimento de jogos, fotografia, pesquisar sobre o baixo nível das coisas e me perder no meio de pesquisas.</p>
+        <p>Resolvi fazer esse site para poder ter uma maneira simples de acessar e compartilhar algumas coisas que faço, um drama que já me ocorreu algumas vezes foi querer mostrar algo para outras pessoas e não ter uma maneira menos burocrática que o envio de um link para acesso a alguma plataforma de armazenamento em nuvem.</p>
+    </div>
+
+    <hr>
+
     <div class="lastJournalins">
-        {{ $pages := where site.RegularPages "Section" "in" (slice "journaling" "devlogs") }}
-        
-        {{ $pages = sort $pages "Date" "desc" }}
-        {{ range first 5 $pages }}
-            {{- partial "articlePreview.html" . -}}
+        {{ $journalingPages := where site.RegularPages "Section" "in" (slice "journaling") }}
+        {{ $journalingPages = sort $journalingPages "Date" "desc" }}
+        {{ range first 8 $journalingPages }}
+            {{- partial "pagePreviews/articlePreview.html" . -}}
         {{ end }}
     </div>
 
     <hr>
 
-    <aside>
-        <H1>Sobre Mim</H1>
-        <p>Eae, eu sou um artista conhecido como Bromo Dumont, entre as coisa que faço por tesão estão: desenvolvimento de jogos, fotografia, pesquisar sobre o baixo nível das coisas e me perder no meio de pesquisas.</p>
-        <p>Resolvi fazer esse site para poder ter uma maneira simples de acessar e compartilhar algumas coisas que faço, um drama que já me ocorreu algumas vezes foi querer mostrar algo para outras pessoas e não ter uma maneira menos burocrática que o envio de um link para acesso a alguma plataforma de armazenamento em nuvem.</p>
-        <p>Aqui tu vai encontrar coisas como: brisas variadas, patch notes de sistemas que estou desenvolvendo, notas de estudo sobre temas variados, e mais algumas coisas que são dignas apenas as pessoas exploradoras.</p>
-        <p>Se tu quiser entrar em contato comigo pode enviar ume-mail para o endereço: <a href="mailto:dumont@bromo.artbr">dumont@bromo.art.br</a></p>
-    </aside>
+    <div class="rightColumn">
+        <h2>Parvus</h2>
+        {{ $parvus := where site.RegularPages "Section" "in" (slice "parvus") }}
+        {{ $parvus = sort $parvus "Date" "desc" }}
+        {{ range first 1 $parvus }}
+        {{- partial "homeContent/parvusHome.html" . -}}
+        {{ end }}
+        
+        <div class="lastChangeLogs">
+            <h2>Change Logs</h2>
+
+            {{ $changeLogPages := where site.RegularPages "Section" "in" (slice "changelogs") }}
+            {{ $changeLogPages = sort $changeLogPages "Date" "desc" }}
+            {{ range first 8 $changeLogPages }}
+                {{- partial "homeContent/changeLogHome.html" . -}}
+            {{ end }}
+        </div>
+    </div>
 </main>
 {{ end }}

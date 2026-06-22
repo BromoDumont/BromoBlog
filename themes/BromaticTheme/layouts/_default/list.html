@@ -3,7 +3,7 @@
     <ul class="articleIndex">
         {{ range .Pages }}
         <li>
-            {{- partial "articlePreview.html" . -}}
+            {{- partial "pagePreviews/articlePreview.html" . -}}
         </li>
         {{ end }}
     </ul>

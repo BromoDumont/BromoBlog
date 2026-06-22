@@ -15,7 +15,6 @@
     --small-text-color: #F4D3A0;
 }
 
-
 /* Individual Elements */
 body{
     background-color: var(--background-color);
@@ -30,12 +29,16 @@ main{
 
 hr{
     color: var(--small-text-color);
-    margin: 0px 25px;
+    margin: 0px 4px;
 }
 
 h1{
     font-weight: 700;
     color: var(--big-text-color);
+}
+
+h2{
+    margin: 8px 0px 0px 0px;
 }
 
 p{
@@ -79,18 +82,6 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 0px 25px;
-}
-
-
-/* Aside */
-aside{
-    min-width: 270px;
-    max-width: 450px;
-    margin: 0px auto;
-}
-
-aside > h1{
-    text-align: center;
 }
 
 
@@ -158,13 +149,55 @@ footer p{
     padding: 0em;
 }
 
+.lastChangeLogs{
+    width: 95%;
+    max-height: 300px;
+    overflow: scroll;
+    padding: 0px 5% 0px 0px;
+}
+
+.rightColumTxt{
+    text-indent: 0;
+}
+
+/* Profile */
+.profile{
+    min-width: 270px;
+    max-width: 350px;
+    max-height: 650px;
+    margin: 0px 32px 0px auto;
+}
+
+.profile > h1{
+    text-align: center;
+}
+
+.profile > img{
+    display: block;
+    margin: 0 auto 25px;
+}
+.profilePicture{
+    max-width: 250px;
+    border-radius: 25px;
+}
+
 /* Last Journalig */
 .lastJournalins{
     min-width: 270px;
     max-width: 750px;
-    max-height: 700px;
-    margin: 0px auto;
+    height: 650px;
+    margin: 0px auto 0px 32px;
     padding: 0px 15px 0px 0px;
+    overflow: scroll;
+}
+
+/* Right Column */
+.rightColumn{
+    min-width: 270px;
+    max-width: 350px;
+    max-height: 650px;
+    margin: 0px auto 0px 32px;
+    padding: 0px;
     overflow: scroll;
 }
 
