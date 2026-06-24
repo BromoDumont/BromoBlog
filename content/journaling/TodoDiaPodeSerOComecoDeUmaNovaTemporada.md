@@ -1,5 +1,5 @@
 ---
-title: Todo dia poder o começo de algo novo
+title: Todo dia poder ser o começo de algo novo
 publishDate: 2026-06-22T18:13:00
 tags:
   - Journaling
