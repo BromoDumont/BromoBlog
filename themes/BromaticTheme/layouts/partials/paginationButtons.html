@@ -1,0 +1,9 @@
+<div class="sectionPaginationButtons">
+    {{ with (.Paginate .Pages).Prev }}
+        <a href="{{ .URL }}" class="previewPage">← Anterior</a>
+    {{ end }}
+    
+    {{ with (.Paginate .Pages).Next }}
+        <a href="{{ .URL }}" class="nextPage">Próxima →</a>
+    {{ end }}
+</div>
