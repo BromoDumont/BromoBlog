@@ -1,5 +1,5 @@
 ---
-title: As Chaves Me Foram Entregues, Mas Onde Ficam as Portas?
+title: As chaves me foram entregues, mas, onde ficam as portas?
 publishDate: 2026-08-12T14:48:00-03:00
 tags:
   - Journaling

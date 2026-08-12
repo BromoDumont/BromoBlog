@@ -1,5 +1,5 @@
 ---
-title: Fazer Arte Não Vai Te Fazer Conhecer Outras Pessoas
+title: Fazer arte não vai te fazer conhecer outras pessoas
 publishDate: 2026-08-12T00:48:00-03:00
 tags:
   - Journaling
