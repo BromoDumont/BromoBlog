@@ -16,7 +16,7 @@
     <hr>
 
     <div class="lastJournalins">
-        {{ $journalingPages := where site.RegularPages "Section" "in" (slice "journaling") }}
+        {{ $journalingPages := where site.RegularPages "Section" "in" (slice "journaling" "studynotes") }}
         {{ $journalingPages = sort $journalingPages "Date" "desc" }}
         {{ range first 8 $journalingPages }}
             {{- partial "pagePreviews/articlePreview.html" . -}}

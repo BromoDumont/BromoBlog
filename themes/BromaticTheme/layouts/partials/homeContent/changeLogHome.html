@@ -1,3 +1,3 @@
 <p class="rightColumTxt">
-  <b class="date">{{ .PublishDate.Format "02/Jan/06" }}</b> - {{ .Content | plainify }}
+  <b class="date">{{ time.Format "02/Jan/06" .PublishDate }}</b> - {{ .Content | plainify }}
 </p>
