@@ -1,0 +1,16 @@
+{{ define "head" }} 
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss := resources.Get "styles/library.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="libraryIndex">
+        {{ range (.Paginate .Pages).Pages }}
+            {{- partial "library/bookPreview.html" . -}}
+        {{ end }}
+    </div>
+    {{- partial "paginationButtons.html" . -}}
+</main>
+{{ end }}

@@ -1,0 +1,90 @@
+main{
+    flex-direction: column;
+    align-items: center;
+}
+
+.libraryIndex a{
+    text-decoration: none;
+}
+
+.libraryIndex a:hover{
+    text-decoration: underline;
+}
+
+.bookPreview{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 720px;
+}
+
+.bookCover{
+    height: 250px;
+    border-radius: 25px;
+    margin: 0px 16px 0px 0px;
+}
+
+.bookInformations{
+    display: flex;
+    flex-direction: column;
+}
+
+.fullContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.fullContent div{
+    margin: 0px 25px 0px 0px;
+}
+
+
+/*Metadata*/
+.bookMetadata{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+
+    max-width: 300px;
+}
+
+.bookMetadata div{
+    display: flex;
+    flex-direction: row;
+}
+
+.bookMetadata p{
+    text-indent: 0;
+    line-height: 1em;
+    padding: 10px 0px;
+}
+
+.bookMetadataPreview{
+    display: flex;
+    flex-direction: column;
+
+    margin: 8px 0px 0px 0px;
+}
+
+.bookMetadataPreview div{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 8px 0px;
+}
+
+.bookMetadataPreview p{
+    text-indent: 0;
+    line-height: 1em;
+    padding: 0;
+    font-style: italic;
+}
+
+.paramInfo{
+    font-weight: bold;
+    margin: 0em .25em 0em 0em;
+}
+
+.giscus{
+    max-width: 750px;
+    margin: 25px auto;
+}

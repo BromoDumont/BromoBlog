@@ -1,0 +1,15 @@
+{{ $bookCover := resources.Get (.Params.bookCover | default "") }}
+<div class="bookPreview">
+    {{ with $bookCover }}
+        <a href="{{ .RelPermalink }}">
+            <img class="bookCover" src="{{ .RelPermalink }}" alt="Capa {{ $.Title }}">
+        </a>
+    {{ end }}
+    <div class="bookInformations">
+        <a href="{{ .RelPermalink }}">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.preview }}</p>
+        </a>
+        {{- partial "metadata/bookMetadataPreview.html" . -}}
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="bookMetadata">
+    <div>
+        <p class="paramInfo">Autor(a):</p> <p>{{ .Params.author }}</p>
+    </div>
+    <div>
+        <p class="paramInfo">Publicação: </p> <p>{{.Params.year }}</p>
+    </div>
+    <div>
+        <p class="paramInfo">País: </p> <p>{{ .Params.country }}</p>
+    </div>
+    <div>
+        <p class="paramInfo">Finalização: </p> <p>{{ time.Format "Mon 02/January/06" .Params.finalizingDate }}</p>
+    </div>
+</div>
