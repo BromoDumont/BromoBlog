@@ -11,9 +11,7 @@
     <div class="fullContent">
         <div>
             {{ $bookCover := resources.Get (.Params.bookCover | default "") }}
-            {{ with $bookCover }}
-                <img class="bookCover" src="{{ .RelPermalink }}" alt="Capa {{ $.Title }}">
-            {{ end }}
+            <img class="bookCover" src="{{ $bookCover.RelPermalink }}" alt="Capa {{ $.Title }}">
 
             {{- partial "metadata/bookMetadata.html" . -}}
         </div>
