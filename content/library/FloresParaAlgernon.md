@@ -4,7 +4,7 @@ author: Daniel Keyes
 country: Estados Unidos da América
 year: 1959 ~ 1966
 finalizingDate: 2026-09-05
-bookCover: imgs\bookCovers\FloresParaAlgernon.jpg
+bookCover: imgs/bookCovers/FloresParaAlgernon.jpg
 preview: Se ver no Charlie e perceber como algumas indignações que sentimos é na realidade uma falta de perspectiva e amadurecimento é lindo. Um tapa na cara muito gostoso de se tomar. Em múltiplos momentos, lendo agora um tanto mais velho, é absolutamente simples de ver como algumas das aflições do Charlie eram resultantes de imaturidade emocional.
 ---
 A alguns anos eu tinha começado a ler Flores para Algernon, não lembro porque acabei abandonando. É absurdamente interessante ver a evolução do Charlie.
