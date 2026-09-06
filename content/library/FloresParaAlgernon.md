@@ -15,8 +15,6 @@ Os momentos em que ele fala sobre a inutilidade da inteligência me pegaram fort
 
 Ver a emersão dos traumas dele também foi algo que achei especialmente interessante, ter a raiz da reação explosiva dele com a esposa do militar, da forma com que ele lida com a Alice e etc, aparecendo e a dificuldade de - mesmo sabendo sobre a origem - lidar com isso foi o tipo de coisa que me fez chegar a pensamentos que ainda não consigo por em palavras.
 
-Apesar do final ser construído aos poucos, fazendo com que saibamos o que vai acontecer um tempo considerável antes dele, ver a consumação me fez chorar.
-
----
-
 Parece que somos tão simples que acabamos complicando as coisas para torna-las menos perturbadoras.
+
+Apesar do final ser construído aos poucos, fazendo com que saibamos o que vai acontecer um tempo considerável antes dele, ver a consumação me fez chorar.
