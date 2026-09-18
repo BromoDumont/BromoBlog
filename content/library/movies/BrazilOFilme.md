@@ -7,9 +7,9 @@ country: Estados Unidos da América
 year: 1985
 finalizingDate: 2026-09-07
 midiaCover: imgs/movieCovers/Brazil-O-Filme.jpg
-preview: Há uns anos eu tinha começado a assistir esse filme, aleatoriamente eu me deparei com a capa escrita "Brazil" enquanto procurava algo para assistir e curioso o escolhi, na época, além de mais ingênuo, também tinha ficado atordoado com tanta coisa acontecendo. Era um momento onde eu ainda tentava racioanlizar de mais.
+preview: Há uns anos eu tinha começado a assistir esse filme, aleatoriamente me deparei com a capa escrita "Brazil" enquanto procurava algo para assistir e curioso o escolhi, na época, além de mais ingênuo, também tinha ficado atordoado com tanta coisa acontecendo. Era um momento onde eu ainda tentava racioanlizar de mais.
 ---
-Há uns anos eu tinha começado a assistir esse filme, aleatoriamente eu me deparei com a capa escrita "Brazil" enquanto procurava algo para assistir e curioso o escolhi, na época, além de mais ingênuo, também tinha ficado atordoado com tanta coisa acontecendo. Era um momento onde eu ainda tentava racionalizar de mais. Um tempo depois vi em alguns lugares citações ao filme e acabei guardando na mente que em algum momento deveria tentar assiti-lo novamente.
+Há uns anos eu tinha começado a assistir esse filme, aleatoriamente me deparei com a capa escrita "Brazil" enquanto procurava algo para assistir e curioso o escolhi, na época, além de mais ingênuo, também tinha ficado atordoado com tanta coisa acontecendo. Era um momento onde eu ainda tentava racionalizar de mais. Um tempo depois vi em alguns lugares citações ao filme e acabei guardando na mente que em algum momento deveria tentar assiti-lo novamente.
 
 Hoje de manhã, logo após acordar, li um pouco do "O Processo" do Kafka e recordei da burocracia em que o vivente do Brazil (Sam Lowry) estava submetido e nisso resolvi que hoje seria o dia em que eu assistiria o filme.
 
