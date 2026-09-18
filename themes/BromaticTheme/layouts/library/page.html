@@ -10,10 +10,15 @@
 <main>
     <div class="fullContent">
         <div>
-            {{ $bookCover := resources.Get (.Params.bookCover | default "") }}
-            <img class="bookCover" src="{{ $bookCover.RelPermalink }}" alt="Capa {{ $.Title }}">
+            {{ $midiaCover := resources.Get (.Params.midiaCover | default "") }}
+            <img class="midiaCover" src="{{ $midiaCover.RelPermalink }}" alt="Capa {{ $.Title }}">
 
-            {{- partial "metadata/bookMetadata.html" . -}}
+            {{ if eq .Params.midia "book" }}
+                {{- partial "metadata/library/libraryBookMetadata.html" . -}}
+            {{ else if eq .Params.midia "movie" }}
+                {{- partial "metadata/library/libraryMovieMetadata.html" . -}}
+            {{ end }}
+
         </div>
         <article>
             <h1>{{ .Title }}</h1>

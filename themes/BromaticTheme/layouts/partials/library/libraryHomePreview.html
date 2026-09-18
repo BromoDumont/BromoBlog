@@ -1,0 +1,8 @@
+{{ $midiaCover := resources.Get (.Params.midiaCover | default "") }}
+<a class="libraryPreview" href="{{ .RelPermalink }}">
+    <img src="{{ $midiaCover.RelPermalink }}" alt="Capa {{ $.Title }}">
+    <div>
+        <h2>{{ .Params.title }}</h1>
+        <p>{{ .Params.preview }}</p>
+    </div>
+</a>

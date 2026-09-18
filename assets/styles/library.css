@@ -11,14 +11,16 @@ main{
     text-decoration: underline;
 }
 
-.bookPreview{
+.midiaPreview{
     display: flex;
     flex-direction: row;
+
+    margin-bottom: 35px;
 
     max-width: 720px;
 }
 
-.bookCover{
+.midiaCover{
     height: 250px;
     border-radius: 25px;
     margin: 0px 16px 0px 0px;
@@ -40,7 +42,7 @@ main{
 
 
 /*Metadata*/
-.bookMetadata{
+.mediaMetadata{
     display: flex;
     flex-direction: column;
     align-items:start;
@@ -48,31 +50,33 @@ main{
     max-width: 300px;
 }
 
-.bookMetadata div{
+.mediaMetadata div{
     display: flex;
     flex-direction: row;
 }
 
-.bookMetadata p{
+.mediaMetadata p{
     text-indent: 0;
     line-height: 1em;
     padding: 10px 0px;
+
+    text-align: left;
 }
 
-.bookMetadataPreview{
+.midiaMetadataPreview{
     display: flex;
     flex-direction: column;
 
     margin: 8px 0px 0px 0px;
 }
 
-.bookMetadataPreview div{
+.midiaMetadataPreview div{
     display: flex;
     flex-direction: row;
     margin: 0px 0px 8px 0px;
 }
 
-.bookMetadataPreview p{
+.midiaMetadataPreview p{
     text-indent: 0;
     line-height: 1em;
     padding: 0;

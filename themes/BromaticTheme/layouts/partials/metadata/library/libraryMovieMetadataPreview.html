@@ -1,0 +1,12 @@
+<div class="midiaMetadataPreview">
+    <div>
+        <p class="paramInfo">Doretor(a):</p> <p>{{ .Params.director }}</p>
+        <hr>
+        <p class="paramInfo">Publicação: </p> <p>{{.Params.year }}</p>
+    </div>
+    <div>
+        <p class="paramInfo">País: </p> <p>{{ .Params.country }}</p>
+        <hr>
+        <p class="paramInfo">Finalização: </p> <p>{{ time.Format "Mon 02/January/06" .Params.finalizingDate }}</p>
+    </div>
+</div>

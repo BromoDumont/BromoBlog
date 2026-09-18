@@ -8,7 +8,7 @@
 <main>
     <div class="libraryIndex">
         {{ range (.Paginate .Pages).Pages }}
-            {{- partial "library/bookPreview.html" . -}}
+            {{- partial "library/libraryPreview.html" . -}}
         {{ end }}
     </div>
     {{- partial "paginationButtons.html" . -}}

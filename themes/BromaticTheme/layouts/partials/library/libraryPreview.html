@@ -1,0 +1,17 @@
+<div class="midiaPreview">
+    <a href="{{ .RelPermalink }}">
+        {{ $midiaCover := resources.Get (.Params.midiaCover | default "") }}
+        <img class="midiaCover" src="{{ $midiaCover.RelPermalink }}" alt="Capa {{ $.Title }}">
+    </a>
+    <div class="bookInformations">
+        <a href="{{ .RelPermalink }}">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.preview }}</p>
+        </a>
+        {{ if eq .Params.midia "book" }}
+            {{- partial "metadata/library/libraryBookMetadataPreview.html" . -}}
+        {{ else if eq .Params.midia "movie" }}
+            {{- partial "metadata/library/libraryMovieMetadataPreview.html" . -}}
+        {{ end }}
+    </div>
+</div>
