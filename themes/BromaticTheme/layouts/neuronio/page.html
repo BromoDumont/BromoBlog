@@ -1,0 +1,19 @@
+{{ define "head" }}
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss1 := resources.Get "styles/guides.css" -}}
+    {{- $extraCss2 := resources.Get "styles/artwork.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    {{ $stepCover := resources.Get (.Params.thumb | default "") }}
+    <img class="stepThumb" src="{{ $stepCover.RelPermalink }}" alt="">
+    <div class="guideInformation">
+        {{ .Content }}
+        {{- partial "commentSection.html" . -}}
+    </div>
+</main>
+{{ end }}

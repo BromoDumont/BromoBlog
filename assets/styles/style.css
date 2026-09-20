@@ -146,6 +146,7 @@ footer p{
     max-height: 300px;
     overflow: scroll;
     padding: 0px 5% 0px 0px;
+    margin: 5px 0px 0px 0px;
 }
 
 .rightColumTxt{

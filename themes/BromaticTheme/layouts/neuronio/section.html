@@ -1,0 +1,29 @@
+{{ define "head" }} 
+    {{- partial "heads/baseHead.html" . -}}
+    {{- $extraCss1 := resources.Get "styles/guides.css" -}}
+    {{- $extraCss2 := resources.Get "styles/artProjects.css" -}}
+    <link rel="stylesheet" href="{{ $extraCss1.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $extraCss2.RelPermalink }}">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <h1>Guia de modelagem de um Neurônio</h1>
+    <img src="{{ (resources.Get "imgs/guides/neuronio/MCM-Neuronio-FullThumb.png").RelPermalink }}" alt="Vish" class="guideThumb">
+    <div class="initialText">
+        <a class="refLink" href="https://static.mundoeducacao.uol.com.br/mundoeducacao/2019/10/1-partes-do-neuronio.jpg" target="_blank" rel="noopener noreferrer"><p>Para tornar as coisas mais didáticas vamos usar como referência direta para a modelagem uma imagem de uma publicação no Mundo Educação sobre neurônios. Além da autora da publicação (da imagem em si não se tem créditos atribuídos) e site temos respaldo sobre a morfologia do neurônio pelo atlas de anatomia Prometheus (especificamente o terceiro volume, dedicado a cabeça, pescoço e neuroanatomia).</p></a>
+        <p>De princípio vamos contornar a forma dos telodendros, corpo celular e dendritos , a ideia aqui é ter mais familiaridade com a manipulação de dois dos três elemento base de uma forma 3D: Vértice e Edge (em português seria vértice e lado mas por questão de convenção da área vamos chamar o lado de edge). Após isso vamos dar volume as formas, torná-las realmente tridimensionais, e trabalhar o terceiro elemento fundamental do 3D que estava faltando, para em seguida fazer a modelagem do axônio e das bainhas de mielina. Ao finalizar o modelo 3D vamos fazer a preparação das malhas para impressão e efetivamente realizar a impressão de algumas peças.</p>
+    </div>
+
+    <section class="guideStepRow">
+        {{ $stepPage := site.GetPage "neuronio/Telodendro" }}
+        {{ partial "guides/guideStepPagePreview.html" $stepPage }}
+
+        {{ $stepPage := site.GetPage "neuronio/CorpoCelular" }}
+        {{ partial "guides/guideStepPagePreview.html" $stepPage }}
+
+        {{ $stepPage := site.GetPage "neuronio/BainhaDeMielinaEAxonio" }}
+        {{ partial "guides/guideStepPagePreview.html" $stepPage }}
+    </section>
+</main>
+{{ end }}

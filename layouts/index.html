@@ -41,8 +41,8 @@
         {{- partial "homeContent/parvusHome.html" . -}}
         {{ end }}
         
+        <h2>Change Logs</h2>
         <div class="lastChangeLogs">
-            <h2>Change Logs</h2>
             {{ $changeLogPages := where site.RegularPages "Section" "in" (slice "changelogs") }}
             {{ $changeLogPages = sort $changeLogPages "Date" "desc" }}
             {{ range first 8 $changeLogPages }}

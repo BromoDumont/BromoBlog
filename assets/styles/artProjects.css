@@ -51,6 +51,7 @@ main{
 
 .projectThumb:hover img{
     border-color: var(--big-text-color);
+    border-color: var(--big-text-color);
 
     filter: brightness(50%);
 
@@ -67,6 +68,7 @@ main{
 
     border-radius: 25px;
     border: 5px solid;
+    border-color: var(--background-color);
 
     transition: 
         filter 0.3s ease,
