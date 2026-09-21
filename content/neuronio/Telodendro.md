@@ -29,7 +29,7 @@ Para os casos das faces triangulares vamos selecionar as duas extremidades dos t
 
 ### Dando volume
 
-{{<embedVideo "qZ2_bHLJg">}}
+{{<embedVideo "__qZ2_bHLJg">}}
 
 Após ter as faces definidas as coisas ficam mais simples do que se possa esperar, nesse ponto o que temos de fazer é selecionar todas as faces, pressionar "E" e mover o mouse um pouco para cima, estamos fazendo uma extrusão de faces. Ao selecionar uma face sempre podemos fazer esse processo para adicionar um volume a malha a partir dela.
 
