@@ -9,8 +9,11 @@
 {{ define "main" }}
 <main>
     <h1>{{ .Title }}</h1>
-    {{ $stepCover := resources.Get (.Params.thumb | default "") }}
-    <img class="stepThumb" src="{{ $stepCover.RelPermalink }}" alt="">
+    {{ if .Params.hideThumbOnPage }}
+    {{ else }}
+        {{ $stepCover := resources.Get (.Params.thumb | default "") }}
+        <img class="stepThumb" src="{{ $stepCover.RelPermalink }}" alt="">
+    {{ end }}
     <div class="guideInformation">
         {{ .Content }}
         {{- partial "commentSection.html" . -}}
