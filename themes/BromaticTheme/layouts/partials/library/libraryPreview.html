@@ -10,6 +10,8 @@
         </a>
         {{ if eq .Params.midia "book" }}
             {{- partial "metadata/library/libraryBookMetadataPreview.html" . -}}
+        {{ else if eq .Params.midia "tales" }}
+            {{- partial "metadata/library/libraryBookMetadataPreview.html" . -}}
         {{ else if eq .Params.midia "movie" }}
             {{- partial "metadata/library/libraryMovieMetadataPreview.html" . -}}
         {{ end }}

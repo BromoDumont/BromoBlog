@@ -7,7 +7,8 @@
 {{ define "main" }}
 <main>
     <div class="libraryIndex">
-        {{ range (.Paginate .Pages).Pages }}
+        {{ $pages := sort .Pages "Params.finalizingDate" "desc" }}
+        {{ range (.Paginate $pages).Pages }}
             {{- partial "library/libraryPreview.html" . -}}
         {{ end }}
     </div>

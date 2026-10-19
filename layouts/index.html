@@ -28,7 +28,7 @@
     <div class="rightColumn">
         <div class="libraryPreviewIndex">
             {{ $libraryMidia := where site.RegularPages "Section" "in" (slice "library") }}
-            {{ $libraryMidia = sort $libraryMidia "Date" "desc" }}
+            {{ $libraryMidia = sort $libraryMidia "Params.finalizingDate" "desc" }}
             {{ range first 1 $libraryMidia}}
                 {{- partial "library/libraryHomePreview.html" . -}}
             {{ end }}
